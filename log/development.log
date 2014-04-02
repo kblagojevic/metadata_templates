@@ -8473,3 +8473,85 @@ Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-01 22:
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-01 22:35:35 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-01 22:38:05 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-01 22:38:05 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-01 22:38:05 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-01 22:38:05 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-01 22:38:05 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-01 22:38:05 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-01 22:38:05 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-01 22:38:05 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-01 22:38:05 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-01 22:38:05 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-01 22:38:05 -0700
+
+
+Started POST "/new" for 127.0.0.1 at 2014-04-01 22:39:35 -0700
+Processing by JobManagerController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ahzxJYwwnqtDYm32SLAHTWZmIMI8bIT2+erdzTht+2s=", "token"=>"05X4dCfhI4mYiHyzXk2vdhwmXg5ShbZO", "folder_id"=>"1792290055", "key_1"=>"Title", "value_1"=>"House of Cards", "key_2"=>"Producer", "value_2"=>"Netflix", "key_3"=>"Actors", "value_3"=>"Kevin Spacey, Rooney Mara", "key_4"=>"Additional Notes", "value_4"=>"", "commit"=>"Add Metadata!"}
+response is #<HTTParty::Response:0x103184d78 parsed_response={"Title"=>"Title", "Producer"=>"Producer", "Actors"=>"Kevin Spacey, Rooney Mara", "Additional Notes"=>"", "$type"=>"properties", "$parent"=>"file_15847646035", "$id"=>"499084b6-d9dd-4ff6-9c89-a8fea26bb58e"}, @response=#<Net::HTTPCreated 201 Created readbody=true>, @headers={"server"=>["nginx"], "date"=>["Wed, 02 Apr 2014 05:39:36 GMT"], "content-type"=>["application/json"], "content-length"=>["193"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x1031d8c48 parsed_response={"Title"=>"Title", "Producer"=>"Producer", "Actors"=>"Kevin Spacey, Rooney Mara", "Additional Notes"=>"", "$type"=>"properties", "$parent"=>"file_15847645593", "$id"=>"306dfc3f-bf7a-4489-8c4a-88d2bb3f8dda"}, @response=#<Net::HTTPCreated 201 Created readbody=true>, @headers={"server"=>["nginx"], "date"=>["Wed, 02 Apr 2014 05:39:37 GMT"], "content-type"=>["application/json"], "content-length"=>["193"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x1031f17e8 parsed_response={"Title"=>"Title", "Producer"=>"Producer", "Actors"=>"Kevin Spacey, Rooney Mara", "Additional Notes"=>"", "$type"=>"properties", "$parent"=>"file_15847645151", "$id"=>"745de3bb-40f0-40bb-ad31-7b3d567b0f93"}, @response=#<Net::HTTPCreated 201 Created readbody=true>, @headers={"server"=>["nginx"], "date"=>["Wed, 02 Apr 2014 05:39:38 GMT"], "content-type"=>["application/json"], "content-length"=>["193"], "connection"=>["close"]}>
+Redirected to http://localhost:3000/success
+Completed 302 Found in 3029ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/success" for 127.0.0.1 at 2014-04-01 22:39:38 -0700
+Processing by MetadataManagerController#success as HTML
+  Rendered metadata_manager/success.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 35ms (Views: 34.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-01 22:39:38 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-01 22:39:38 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-01 22:39:38 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-01 22:39:38 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-01 22:39:38 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-01 22:39:38 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-01 22:39:38 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-01 22:39:38 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-01 22:39:38 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-01 22:39:38 -0700
