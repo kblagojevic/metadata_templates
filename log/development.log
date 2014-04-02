@@ -8555,3 +8555,59 @@ Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-01 22:
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-01 22:39:38 -0700
+
+
+Started POST "/new" for 127.0.0.1 at 2014-04-01 22:47:41 -0700
+Processing by JobManagerController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ahzxJYwwnqtDYm32SLAHTWZmIMI8bIT2+erdzTht+2s=", "token"=>"05X4dCfhI4mYiHyzXk2vdhwmXg5ShbZO", "folder_id"=>"1792290055", "key_1"=>"Title", "value_1"=>"House of Cards", "key_2"=>"Producer", "value_2"=>"Netflix", "key_3"=>"Actors", "value_3"=>"Kevin Spacey, Rooney Mara", "key_4"=>"Launch Date", "value_4"=>"Jan 1, 2012", "commit"=>"Add Metadata!"}
+response is #<HTTParty::Response:0x10122bb48 parsed_response={"message"=>"Could not connect to the service. Try issuing the request again at a later time.", "code"=>"service_unavailable", "request_id"=>"1922397636533ba47e595d6"}, @response=#<Net::HTTPServiceUnavailable 503 Service Unavailable readbody=true>, @headers={"server"=>["nginx"], "date"=>["Wed, 02 Apr 2014 05:47:43 GMT"], "content-type"=>["application/json"], "content-length"=>["162"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x101befa58 parsed_response={"Title"=>"Title", "Producer"=>"Producer", "Actors"=>"Kevin Spacey, Rooney Mara", "Launch Date"=>"Jan 1, 2012", "$type"=>"properties", "$parent"=>"file_15847789151", "$id"=>"b5b3703e-999a-4c46-968f-a93a9d7bb299"}, @response=#<Net::HTTPCreated 201 Created readbody=true>, @headers={"server"=>["nginx"], "date"=>["Wed, 02 Apr 2014 05:47:44 GMT"], "content-type"=>["application/json"], "content-length"=>["199"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x101bf4a58 parsed_response={"Title"=>"Title", "Producer"=>"Producer", "Actors"=>"Kevin Spacey, Rooney Mara", "Launch Date"=>"Jan 1, 2012", "$type"=>"properties", "$parent"=>"file_15847788717", "$id"=>"49b0b05b-27d2-4033-bbe2-a01ad55b1a30"}, @response=#<Net::HTTPCreated 201 Created readbody=true>, @headers={"server"=>["nginx"], "date"=>["Wed, 02 Apr 2014 05:47:44 GMT"], "content-type"=>["application/json"], "content-length"=>["199"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x101c352d8 parsed_response={"Title"=>"Title", "Producer"=>"Producer", "Actors"=>"Kevin Spacey, Rooney Mara", "Launch Date"=>"Jan 1, 2012", "$type"=>"properties", "$parent"=>"file_15847789581", "$id"=>"6b0e32b8-a4c8-49ea-b516-782bd354a9a1"}, @response=#<Net::HTTPCreated 201 Created readbody=true>, @headers={"server"=>["nginx"], "date"=>["Wed, 02 Apr 2014 05:47:45 GMT"], "content-type"=>["application/json"], "content-length"=>["199"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x101c5ed18 parsed_response={"message"=>"Could not connect to the service. Try issuing the request again at a later time.", "code"=>"service_unavailable", "request_id"=>"1683198514533ba48224359"}, @response=#<Net::HTTPServiceUnavailable 503 Service Unavailable readbody=true>, @headers={"server"=>["nginx"], "date"=>["Wed, 02 Apr 2014 05:47:47 GMT"], "content-type"=>["application/json"], "content-length"=>["162"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x10307cde0 parsed_response={"Title"=>"Title", "Producer"=>"Producer", "Actors"=>"Kevin Spacey, Rooney Mara", "Launch Date"=>"Jan 1, 2012", "$type"=>"properties", "$parent"=>"file_15847790827", "$id"=>"676d3004-0b51-4140-828d-8f7a385646da"}, @response=#<Net::HTTPCreated 201 Created readbody=true>, @headers={"server"=>["nginx"], "date"=>["Wed, 02 Apr 2014 05:47:48 GMT"], "content-type"=>["application/json"], "content-length"=>["199"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x1030853a0 parsed_response={"Title"=>"Title", "Producer"=>"Producer", "Actors"=>"Kevin Spacey, Rooney Mara", "Launch Date"=>"Jan 1, 2012", "$type"=>"properties", "$parent"=>"file_15847790167", "$id"=>"94c6178f-bb2d-45ed-bf81-4f1c59326da6"}, @response=#<Net::HTTPCreated 201 Created readbody=true>, @headers={"server"=>["nginx"], "date"=>["Wed, 02 Apr 2014 05:47:48 GMT"], "content-type"=>["application/json"], "content-length"=>["199"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x101ccdcb8 parsed_response={"message"=>"Unique constraint violated by instance '19894b01-37c3-4818-8b5c-a86f61510aec'", "code"=>"conflict", "request_id"=>"1462026272533ba48535267"}, @response=#<Net::HTTPConflict 409 Conflict readbody=true>, @headers={"server"=>["nginx"], "date"=>["Wed, 02 Apr 2014 05:47:49 GMT"], "content-type"=>["application/json"], "content-length"=>["148"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x101cf6550 parsed_response={"message"=>"Could not connect to the service. Try issuing the request again at a later time.", "code"=>"service_unavailable", "request_id"=>"56582705533ba485c08b8"}, @response=#<Net::HTTPServiceUnavailable 503 Service Unavailable readbody=true>, @headers={"server"=>["nginx"], "date"=>["Wed, 02 Apr 2014 05:47:51 GMT"], "content-type"=>["application/json"], "content-length"=>["160"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x1012bd070 parsed_response={"message"=>"Unique constraint violated by instance '342fe2ce-dad0-4797-89d1-cd98c605d48b'", "code"=>"conflict", "request_id"=>"198096980533ba48747aeb"}, @response=#<Net::HTTPConflict 409 Conflict readbody=true>, @headers={"server"=>["nginx"], "date"=>["Wed, 02 Apr 2014 05:47:51 GMT"], "content-type"=>["application/json"], "content-length"=>["147"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x1020efd50 parsed_response={"Title"=>"Title", "Producer"=>"Producer", "Actors"=>"Kevin Spacey, Rooney Mara", "Additional Notes"=>"", "$type"=>"properties", "$parent"=>"file_15847645151", "$id"=>"745de3bb-40f0-40bb-ad31-7b3d567b0f93", "Launch Date"=>"Jan 1, 2012"}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"server"=>["nginx"], "date"=>["Wed, 02 Apr 2014 05:47:52 GMT"], "content-type"=>["application/json"], "content-length"=>["221"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x1012ed090 parsed_response={"message"=>"Could not connect to the service. Try issuing the request again at a later time.", "code"=>"service_unavailable", "request_id"=>"1462026272533ba4891129b"}, @response=#<Net::HTTPServiceUnavailable 503 Service Unavailable readbody=true>, @headers={"server"=>["nginx"], "date"=>["Wed, 02 Apr 2014 05:47:54 GMT"], "content-type"=>["application/json"], "content-length"=>["162"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x1030c5298 parsed_response={"Title"=>"Title", "Producer"=>"Producer", "Actors"=>"Kevin Spacey, Rooney Mara", "Launch Date"=>"Jan 1, 2012", "$type"=>"properties", "$parent"=>"file_15847791423", "$id"=>"4e645b52-0000-4066-8e44-e51ffbaf4c1b"}, @response=#<Net::HTTPCreated 201 Created readbody=true>, @headers={"server"=>["nginx"], "date"=>["Wed, 02 Apr 2014 05:47:55 GMT"], "content-type"=>["application/json"], "content-length"=>["199"], "connection"=>["close"]}>
+Redirected to http://localhost:3000/success
+Completed 302 Found in 13649ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/success" for 127.0.0.1 at 2014-04-01 22:47:55 -0700
+Processing by MetadataManagerController#success as HTML
+  Rendered metadata_manager/success.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 27ms (Views: 26.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-01 22:47:55 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-01 22:47:55 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-01 22:47:55 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-01 22:47:55 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-01 22:47:55 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-01 22:47:55 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-01 22:47:55 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-01 22:47:55 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-01 22:47:55 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-01 22:47:55 -0700

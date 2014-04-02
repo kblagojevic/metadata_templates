@@ -16,8 +16,8 @@ class JobManagerController < ApplicationController
 		job["key_2"] = params[:key_2]
 		job["key_3"] = params[:key_3]
 		job["key_4"] = params[:key_4]
-		job["value_1"] = params[:key_1]
-		job["value_2"] = params[:key_2]
+		job["value_1"] = params[:value_1]
+		job["value_2"] = params[:value_2]
 		job["value_3"] = params[:value_3]
 		job["value_4"] = params[:value_4]
 
