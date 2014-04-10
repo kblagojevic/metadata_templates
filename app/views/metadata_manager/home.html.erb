@@ -1,4 +1,4 @@
-
+<div class="container">
 
 <h1>Metadata Template Creator</h1>
 <div class="row">
@@ -9,11 +9,11 @@
 
 
 
-		<div class="row">
+		
 		
 		<%=form_tag new_path do %>
 
-
+		<div class="row">
 
 		
 			<h4>Add Account Info</h4>
@@ -60,14 +60,16 @@
 
 			<%=label_tag :default_value %>
 			<%= text_field_tag :value_4 %>
-		
+		</div>
+
+		<div class="row">
 
 			<%=submit_tag "Add Metadata!", class: "btn-bt-large btn-primary"%>
 			<% end %>
 		</div>
 
 	
-
+</div>
 	
 
 
