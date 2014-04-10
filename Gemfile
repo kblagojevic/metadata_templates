@@ -26,10 +26,14 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 
-gem 'bootstrap-sass'
+#gem 'bootstrap-sass'
+
+
 gem 'ruby-box'
 gem 'httparty'
 gem 'spawn'
+
+gem 'bootstrap-sass', '2.3.2'
 
 gem 'pg', group: :production
 

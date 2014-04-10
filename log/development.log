@@ -8611,3 +8611,3464 @@ Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-01 22:
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-01 22:47:55 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-01 23:06:25 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 30ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-01 23:06:26 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-01 23:06:26 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-01 23:06:26 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-01 23:06:26 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-01 23:06:26 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-01 23:06:26 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-01 23:06:26 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-01 23:06:26 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-01 23:06:26 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-01 23:06:26 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-01 23:06:47 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 207ms
+
+ActionView::Template::Error ([stdin]:5:19: error: reserved word "function"
+$(document).ready(function() {
+                  ^
+  (in /Users/tblosser/Desktop/metadata_templates/app/assets/javascripts/metadata_manager.js.coffee)):
+    3: <head>
+    4:   <title>Myapp</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__131125174493317095_2202077580'
+
+
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-01 23:07:01 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 110ms
+
+ActionView::Template::Error ([stdin]:8:19: error: reserved word "function"
+$(document).ready(function() {
+                  ^
+  (in /Users/tblosser/Desktop/metadata_templates/app/assets/javascripts/metadata_manager.js.coffee)):
+    3: <head>
+    4:   <title>Myapp</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__131125174493317095_2202077580'
+
+
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-01 23:07:04 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 121ms
+
+ActionView::Template::Error ([stdin]:8:19: error: reserved word "function"
+$(document).ready(function() {
+                  ^
+  (in /Users/tblosser/Desktop/metadata_templates/app/assets/javascripts/metadata_manager.js.coffee)):
+    3: <head>
+    4:   <title>Myapp</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__131125174493317095_2202077580'
+
+
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-01 23:07:42 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 108ms
+
+ActionView::Template::Error ([stdin]:8:5: error: reserved word "var"
+    var boxSelect = new BoxSelect();
+    ^
+  (in /Users/tblosser/Desktop/metadata_templates/app/assets/javascripts/metadata_manager.js.coffee)):
+    3: <head>
+    4:   <title>Myapp</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__131125174493317095_2202077580'
+
+
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-01 23:07:43 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 108ms
+
+ActionView::Template::Error ([stdin]:8:5: error: reserved word "var"
+    var boxSelect = new BoxSelect();
+    ^
+  (in /Users/tblosser/Desktop/metadata_templates/app/assets/javascripts/metadata_manager.js.coffee)):
+    3: <head>
+    4:   <title>Myapp</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__131125174493317095_2202077580'
+
+
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-01 23:14:25 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 314ms (Views: 312.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-01 23:14:25 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-01 23:14:25 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-01 23:14:25 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-01 23:14:25 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-01 23:14:25 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-01 23:14:25 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-01 23:14:25 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-01 23:14:25 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-01 23:14:25 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-01 23:14:25 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 14:50:35 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 370ms (Views: 351.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 14:50:36 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 14:50:36 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 14:50:36 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 14:50:36 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 14:50:36 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 14:50:36 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 14:50:36 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 14:50:36 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 14:50:36 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 14:50:36 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 21:46:42 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 185ms (Views: 180.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 21:46:42 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 21:46:42 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 21:46:42 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 21:46:42 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 21:46:42 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 21:46:42 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 21:46:42 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 21:46:42 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 21:46:42 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 21:46:42 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 21:46:44 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 35ms (Views: 34.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 21:46:44 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 21:46:44 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 21:46:44 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 21:46:44 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 21:46:44 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 21:46:44 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 21:46:44 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 21:46:44 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 21:46:44 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 21:46:44 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 21:46:45 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 33ms (Views: 32.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 21:46:45 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 21:46:45 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 21:46:45 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 21:46:45 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 21:46:45 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 21:46:45 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 21:46:45 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 21:46:45 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 21:46:45 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 21:46:45 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 21:47:20 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (36.5ms)
+Completed 200 OK in 118ms (Views: 117.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 21:47:20 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 21:47:20 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 21:47:20 -0700
+
+
+Started GET "/javascripts/static_pages.js" for 127.0.0.1 at 2014-04-02 21:47:20 -0700
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/static_pages.js"):
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0.rc2) lib/rails/engine.rb:515:in `call'
+  railties (4.1.0.rc2) lib/rails/application.rb:142:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (37.4ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (100.3ms)
+
+
+Started GET "/javascripts/json2.js" for 127.0.0.1 at 2014-04-02 21:47:20 -0700
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/json2.js"):
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0.rc2) lib/rails/engine.rb:515:in `call'
+  railties (4.1.0.rc2) lib/rails/application.rb:142:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.4ms)
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 21:47:20 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 21:47:20 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 21:47:20 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 21:47:20 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 21:47:20 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 21:47:20 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 21:47:20 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 21:47:22 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (23.3ms)
+Completed 200 OK in 53ms (Views: 51.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/json2.js" for 127.0.0.1 at 2014-04-02 21:47:22 -0700
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/json2.js"):
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0.rc2) lib/rails/engine.rb:515:in `call'
+  railties (4.1.0.rc2) lib/rails/application.rb:142:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.7ms)
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 21:47:22 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 21:47:22 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 21:47:22 -0700
+
+
+Started GET "/javascripts/static_pages.js" for 127.0.0.1 at 2014-04-02 21:47:22 -0700
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/static_pages.js"):
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0.rc2) lib/rails/engine.rb:515:in `call'
+  railties (4.1.0.rc2) lib/rails/application.rb:142:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 21:47:22 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 21:47:22 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 21:47:22 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 21:47:22 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 21:47:22 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 21:47:22 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 21:47:22 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 21:47:39 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (28.2ms)
+Completed 200 OK in 58ms (Views: 56.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 21:47:39 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 21:47:39 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 21:47:39 -0700
+
+
+Started GET "/javascripts/json2.js" for 127.0.0.1 at 2014-04-02 21:47:39 -0700
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/json2.js"):
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0.rc2) lib/rails/engine.rb:515:in `call'
+  railties (4.1.0.rc2) lib/rails/application.rb:142:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.9ms)
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 21:47:39 -0700
+
+
+Started GET "/javascripts/static_pages.js" for 127.0.0.1 at 2014-04-02 21:47:39 -0700
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/static_pages.js"):
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0.rc2) lib/rails/engine.rb:515:in `call'
+  railties (4.1.0.rc2) lib/rails/application.rb:142:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 21:47:39 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 21:47:39 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 21:47:39 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 21:47:39 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 21:47:39 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 21:47:39 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 21:48:35 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (105.8ms)
+Completed 200 OK in 135ms (Views: 134.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 21:48:35 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 21:48:35 -0700
+
+
+Started GET "/javascripts/json2.js" for 127.0.0.1 at 2014-04-02 21:48:35 -0700
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/json2.js"):
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0.rc2) lib/rails/engine.rb:515:in `call'
+  railties (4.1.0.rc2) lib/rails/application.rb:142:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.3ms)
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 21:48:35 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 21:48:35 -0700
+
+
+Started GET "/javascripts/static_pages.js" for 127.0.0.1 at 2014-04-02 21:48:35 -0700
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/static_pages.js"):
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0.rc2) lib/rails/engine.rb:515:in `call'
+  railties (4.1.0.rc2) lib/rails/application.rb:142:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 21:48:35 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 21:48:35 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 21:48:35 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 21:48:35 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 21:48:35 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 21:48:35 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:01:38 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (25.3ms)
+Completed 200 OK in 54ms (Views: 53.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:01:38 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:01:38 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:01:38 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:01:38 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:01:38 -0700
+
+
+Started GET "/javascripts/static_pages.js" for 127.0.0.1 at 2014-04-02 22:01:38 -0700
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/static_pages.js"):
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0.rc2) lib/rails/engine.rb:515:in `call'
+  railties (4.1.0.rc2) lib/rails/application.rb:142:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:01:39 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:01:39 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:01:39 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:01:39 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:01:39 -0700
+
+
+Started GET "/javascripts/json2.js" for 127.0.0.1 at 2014-04-02 22:01:39 -0700
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/json2.js"):
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0.rc2) lib/rails/engine.rb:515:in `call'
+  railties (4.1.0.rc2) lib/rails/application.rb:142:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (38.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:03:34 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 35ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:03:34 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:03:34 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:03:34 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:03:34 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:03:34 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:03:34 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:03:34 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:03:34 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:03:34 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:03:34 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:05:23 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (33.8ms)
+Completed 200 OK in 62ms (Views: 61.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:05:23 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:05:23 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:05:23 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:05:23 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:05:23 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:05:23 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:05:23 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:05:23 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:05:23 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:05:23 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:06:50 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (31.0ms)
+Completed 200 OK in 62ms (Views: 60.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:06:50 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:06:50 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:06:50 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:06:50 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:06:50 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:06:50 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:06:50 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:06:50 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:06:50 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:06:50 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:07:38 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (32.4ms)
+Completed 200 OK in 61ms (Views: 60.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:07:38 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:07:38 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:07:38 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:07:38 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:07:38 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:07:38 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:07:38 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:07:38 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:07:38 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:07:38 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:08:34 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 62ms (Views: 61.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:08:35 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:08:35 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:08:35 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:08:35 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:08:35 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:08:35 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:08:35 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:08:35 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:08:35 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:08:35 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:11:32 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 59ms (Views: 58.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:11:32 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:11:32 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:11:32 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:11:32 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:11:32 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:11:32 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:11:32 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:11:32 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:11:32 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:11:32 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:14:11 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (33.1ms)
+Completed 200 OK in 63ms (Views: 62.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:14:12 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:14:12 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:14:12 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:14:12 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:14:12 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:14:12 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:14:12 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:14:12 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:14:12 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:14:12 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:14:32 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (33.7ms)
+Completed 200 OK in 65ms (Views: 64.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:14:33 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:14:33 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:14:33 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:14:33 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:14:33 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:14:33 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:14:33 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:14:33 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:14:33 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:14:33 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:14:37 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 41ms (Views: 40.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:14:37 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:14:37 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:14:37 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:14:37 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:14:37 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:14:37 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:14:37 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:14:37 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:14:37 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:14:37 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:14:40 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (32.9ms)
+Completed 200 OK in 61ms (Views: 60.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:14:40 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:14:40 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:14:40 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:14:40 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:14:40 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:14:40 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:14:40 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:14:40 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:14:40 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:14:40 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:15:11 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (30.1ms)
+Completed 200 OK in 59ms (Views: 58.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:15:11 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:15:11 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:15:11 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:15:11 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:15:11 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:15:11 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:15:11 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:15:11 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:15:11 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:15:11 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:15:28 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 33ms (Views: 32.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:15:28 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:15:28 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:15:28 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:15:28 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:15:29 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:15:29 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:15:29 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:15:29 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:15:29 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:15:29 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:21:33 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (30.3ms)
+Completed 200 OK in 59ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:21:33 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:21:33 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:21:33 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:21:33 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:21:33 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:21:33 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:21:33 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:21:33 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:21:33 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:21:33 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:21:56 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (37.3ms)
+Completed 200 OK in 67ms (Views: 66.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:21:56 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:21:56 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:21:56 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:21:56 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:21:56 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:21:56 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:21:56 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:21:56 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:21:56 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:21:56 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:22:19 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (33.5ms)
+Completed 200 OK in 64ms (Views: 63.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:22:19 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:22:19 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:22:19 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:22:19 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:22:19 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:22:19 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:22:19 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:22:19 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:22:19 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:22:19 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:22:53 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (34.3ms)
+Completed 200 OK in 64ms (Views: 63.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:22:53 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:22:53 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:22:53 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:22:53 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:22:53 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:22:53 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:22:53 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:22:53 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:22:53 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:22:53 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:23:09 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (34.5ms)
+Completed 200 OK in 64ms (Views: 63.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:23:09 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:23:09 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:23:09 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:23:09 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:23:09 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:23:09 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:23:09 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:23:09 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:23:09 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:23:09 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:23:24 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 35ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:23:24 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:23:24 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:23:24 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:23:24 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:23:24 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:23:24 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:23:24 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:23:24 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:23:24 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:23:24 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:24:03 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (30.5ms)
+Completed 200 OK in 61ms (Views: 60.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:24:04 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:24:04 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:24:04 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:24:04 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:24:04 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:24:04 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:24:04 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:24:04 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:24:04 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:24:04 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:28:23 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 62ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:28:23 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:28:23 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:28:23 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:28:23 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:28:23 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:28:23 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:28:23 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:28:23 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:28:23 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:28:23 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:29:16 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (29.7ms)
+Completed 200 OK in 63ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:29:16 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:29:16 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:29:16 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:29:16 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:29:16 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:29:16 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:29:16 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:29:16 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:29:16 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:29:16 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:30:28 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (32.7ms)
+Completed 200 OK in 66ms (Views: 65.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:30:28 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:30:28 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:30:28 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:30:28 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:30:28 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:30:28 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:30:28 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:30:28 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:30:28 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:30:28 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:32:01 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (31.0ms)
+Completed 200 OK in 61ms (Views: 60.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:32:01 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:32:01 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:32:01 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:32:01 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:32:01 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:32:01 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:32:01 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:32:01 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:32:01 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:32:01 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:32:25 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (30.8ms)
+Completed 200 OK in 62ms (Views: 61.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:32:25 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:32:25 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:32:25 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:32:25 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:32:25 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:32:25 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:32:25 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:32:25 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:32:25 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:32:25 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:32:51 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (37.4ms)
+Completed 200 OK in 67ms (Views: 66.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:32:51 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:32:51 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:32:51 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:32:51 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:32:51 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:32:51 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:32:51 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:32:51 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:32:51 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:32:51 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:33:42 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (32.7ms)
+Completed 200 OK in 62ms (Views: 61.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:33:42 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:33:42 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:33:42 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:33:42 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:33:42 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:33:42 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:33:42 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:33:42 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:33:42 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:33:42 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:35:09 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (29.5ms)
+Completed 200 OK in 59ms (Views: 58.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:35:09 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:35:09 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:35:09 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:35:09 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:35:09 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:35:09 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:35:09 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:35:09 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:35:09 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:35:09 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:35:30 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (34.2ms)
+Completed 200 OK in 64ms (Views: 63.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:35:30 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:35:30 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:35:30 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:35:30 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:35:30 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:35:30 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:35:30 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:35:30 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:35:30 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:35:30 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:38:37 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (98.2ms)
+Completed 200 OK in 259ms (Views: 258.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:38:38 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:38:38 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:38:38 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:38:38 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:38:38 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:38:38 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:38:38 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:38:38 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:38:38 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:38:38 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:38:57 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (35.4ms)
+Completed 200 OK in 64ms (Views: 63.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:38:57 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:38:57 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:38:57 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:38:57 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:38:57 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:38:57 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:38:57 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:38:57 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:38:57 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:38:57 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:39:23 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (29.1ms)
+Completed 200 OK in 60ms (Views: 58.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:39:23 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:39:23 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:39:23 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:39:23 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:39:23 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:39:23 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:39:23 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:39:23 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:39:23 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:39:23 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:44:58 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (35.1ms)
+Completed 200 OK in 81ms (Views: 80.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:44:58 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:44:58 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:44:58 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:44:58 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:44:58 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:44:58 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:44:58 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:44:58 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:44:58 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:44:58 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:47:35 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (29.2ms)
+Completed 200 OK in 59ms (Views: 58.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:47:35 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:47:35 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:47:35 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:47:35 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:47:35 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:47:35 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:47:35 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:47:35 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:47:35 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:47:35 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:48:12 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (31.0ms)
+Completed 200 OK in 60ms (Views: 59.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:48:13 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:48:13 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:48:13 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:48:13 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:48:13 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:48:13 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:48:13 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:48:13 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:48:13 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:48:13 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:48:27 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (30.3ms)
+Completed 200 OK in 60ms (Views: 59.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:48:28 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:48:28 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:48:28 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:48:28 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:48:28 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:48:28 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:48:28 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:48:28 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:48:28 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:48:28 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:50:52 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (30.7ms)
+Completed 200 OK in 61ms (Views: 60.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:50:52 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:50:52 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:50:52 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:50:52 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:50:52 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:50:52 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:50:52 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:50:52 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:50:52 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:50:52 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-02 22:51:21 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (34.4ms)
+Completed 200 OK in 64ms (Views: 63.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-02 22:51:21 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-02 22:51:21 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:51:21 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-02 22:51:21 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-02 22:51:21 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-02 22:51:21 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-02 22:51:21 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:51:21 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-02 22:51:21 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-02 22:51:21 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 12:44:00 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (117.3ms)
+Completed 200 OK in 371ms (Views: 350.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-08 12:44:01 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-08 12:44:01 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 12:44:01 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-08 12:44:01 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 12:44:01 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 12:44:01 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 12:44:01 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-08 12:44:01 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-08 12:44:01 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 12:44:01 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 12:45:36 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (75.0ms)
+Completed 200 OK in 105ms (Views: 103.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-08 12:45:36 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-08 12:45:36 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-08 12:45:36 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 12:45:36 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 12:45:36 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 12:45:36 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-08 12:45:36 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 12:45:36 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-08 12:45:36 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 12:45:36 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 12:46:42 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 36ms (Views: 35.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-08 12:46:42 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 12:46:43 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-08 12:46:43 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 12:46:43 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-08 12:46:43 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 12:46:43 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 12:46:43 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-08 12:46:43 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-08 12:46:43 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 12:46:43 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 12:46:44 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 32ms (Views: 31.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-08 12:46:44 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-08 12:46:44 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 12:46:44 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-08 12:46:44 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 12:46:44 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 12:46:44 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-08 12:46:44 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 12:46:44 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-08 12:46:44 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 12:46:44 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 12:46:57 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 33ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-08 12:46:57 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 12:46:57 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 12:46:57 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 12:46:57 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-08 12:46:57 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-08 12:46:57 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 12:46:57 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-08 12:46:57 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-08 12:46:57 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 12:46:57 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 12:49:31 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 33ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-08 12:49:31 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-08 12:49:31 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-08 12:49:31 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 12:49:31 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 12:49:31 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 12:49:31 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-08 12:49:31 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 12:49:31 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 12:49:31 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-08 12:49:31 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 12:49:48 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 38ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-08 12:49:48 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 12:49:48 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 12:49:48 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-08 12:49:48 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-08 12:49:48 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 12:49:48 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-08 12:49:48 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-08 12:49:48 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 12:49:48 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 12:49:48 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 12:50:05 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 40ms (Views: 39.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-08 12:50:05 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-08 12:50:05 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 12:50:05 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-08 12:50:05 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 12:50:05 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 12:50:05 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 12:50:05 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-08 12:50:05 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-08 12:50:05 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 12:50:05 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 12:50:12 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 33ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-08 12:50:12 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-08 12:50:12 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 12:50:12 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-08 12:50:12 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 12:50:12 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 12:50:12 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-08 12:50:12 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 12:50:12 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-08 12:50:12 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 12:50:12 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 12:50:52 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 38ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-08 12:50:52 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 12:50:52 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-08 12:50:52 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 12:50:52 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 12:50:52 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-08 12:50:52 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 12:50:52 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-08 12:50:52 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 12:50:52 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-08 12:50:52 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 12:50:54 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-08 12:50:54 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 12:50:54 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-08 12:50:54 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 12:50:54 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-08 12:50:54 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 12:50:54 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 12:50:54 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-08 12:50:54 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-08 12:50:54 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 12:50:54 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 12:55:26 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 32ms (Views: 31.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-08 12:55:26 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-08 12:55:26 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-08 12:55:26 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 12:55:26 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 12:55:26 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 12:55:26 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 12:55:26 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-08 12:55:26 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-08 12:55:26 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 12:55:26 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 12:55:27 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-08 12:55:28 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-08 12:55:28 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-08 12:55:28 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 12:55:28 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 12:55:28 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 12:55:28 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 12:55:28 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-08 12:55:28 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-08 12:55:28 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 12:55:28 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 12:55:37 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (30.1ms)
+Completed 200 OK in 99ms (Views: 89.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-08 12:55:38 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-08 12:55:38 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 12:55:38 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 12:55:38 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-08 12:55:38 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 12:55:38 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 12:55:38 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-08 12:55:38 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-08 12:55:38 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 12:55:38 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 12:56:58 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-08 12:56:58 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-08 12:56:58 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 12:56:58 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-08 12:56:58 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 12:56:58 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 12:56:58 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 12:56:58 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-08 12:56:58 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 12:56:58 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-08 12:56:58 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 12:56:59 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 33ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-08 12:56:59 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-08 12:56:59 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-08 12:56:59 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 12:56:59 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 12:56:59 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 12:56:59 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 12:56:59 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-08 12:56:59 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 12:56:59 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-08 12:56:59 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 12:57:00 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 33ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-08 12:57:00 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-08 12:57:00 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 12:57:00 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-08 12:57:00 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 12:57:00 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 12:57:00 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 12:57:00 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-08 12:57:00 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 12:57:00 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-08 12:57:00 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 12:58:37 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (23.7ms)
+Completed 500 Internal Server Error in 47ms
+
+ActionView::Template::Error (couldn't find file 'bootstrap'
+  (in /Users/tblosser/Desktop/metadata_templates/app/assets/javascripts/application.js:17)):
+    12: 	<div id="box-select"  data-link-type="direct" data-multiselect="false" data-client-id="bu19jq5tl4xg61d2tvcuq7dl7a4tsgqj"></div>
+    13: 
+    14: 	<script type="text/javascript" src="https://app.box.com/js/static/select.js"></script>
+    15: <%= javascript_include_tag "application" %>
+    16: 
+    17: <p id="folderName"></p>
+    18: 
+  app/views/metadata_manager/home.html.erb:15:in `_app_views_metadata_manager_home_html_erb__3853394995173069947_2199965600'
+
+
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 12:58:55 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 31ms
+
+ActionView::Template::Error (couldn't find file 'bootstrap'
+  (in /Users/tblosser/Desktop/metadata_templates/app/assets/stylesheets/application.css:15)):
+    2: <html>
+    3: <head>
+    4:   <title>Myapp</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2348420990001293934_2199929560'
+
+
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 12:58:56 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 32ms
+
+ActionView::Template::Error (couldn't find file 'bootstrap'
+  (in /Users/tblosser/Desktop/metadata_templates/app/assets/stylesheets/application.css:15)):
+    2: <html>
+    3: <head>
+    4:   <title>Myapp</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2348420990001293934_2199929560'
+
+
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 12:59:09 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 34ms
+
+ActionView::Template::Error (couldn't find file 'bootstrap'
+  (in /Users/tblosser/Desktop/metadata_templates/app/assets/stylesheets/application.css:15)):
+    2: <html>
+    3: <head>
+    4:   <title>Myapp</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2348420990001293934_2199929560'
+
+
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 12:59:10 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 29ms
+
+ActionView::Template::Error (couldn't find file 'bootstrap'
+  (in /Users/tblosser/Desktop/metadata_templates/app/assets/stylesheets/application.css:15)):
+    2: <html>
+    3: <head>
+    4:   <title>Myapp</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2348420990001293934_2199929560'
+
+
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 12:59:11 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 28ms
+
+ActionView::Template::Error (couldn't find file 'bootstrap'
+  (in /Users/tblosser/Desktop/metadata_templates/app/assets/stylesheets/application.css:15)):
+    2: <html>
+    3: <head>
+    4:   <title>Myapp</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2348420990001293934_2199929560'
+
+
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 12:59:20 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 47ms
+
+ActionView::Template::Error (couldn't find file 'bootstrap'
+  (in /Users/tblosser/Desktop/metadata_templates/app/assets/stylesheets/application.css:15)):
+    2: <html>
+    3: <head>
+    4:   <title>Myapp</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1435859739347193759_2202919540'
+
+
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 12:59:50 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 37ms
+
+ActionView::Template::Error (couldn't find file 'bootstrap'
+  (in /Users/tblosser/Desktop/metadata_templates/app/assets/stylesheets/application.css:15)):
+    2: <html>
+    3: <head>
+    4:   <title>Myapp</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1435859739347193759_2202919540'
+
+
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 12:59:51 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 36ms
+
+ActionView::Template::Error (couldn't find file 'bootstrap'
+  (in /Users/tblosser/Desktop/metadata_templates/app/assets/stylesheets/application.css:15)):
+    2: <html>
+    3: <head>
+    4:   <title>Myapp</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1435859739347193759_2202919540'
+
+
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 13:00:00 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 88ms (Views: 87.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-08 13:00:00 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-08 13:00:00 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-08 13:00:00 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 13:00:00 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 13:00:00 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 13:00:00 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 13:00:00 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-08 13:00:00 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-08 13:00:00 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 13:00:00 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 13:00:29 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 31ms
+
+ActionView::Template::Error (couldn't find file 'bootstrap'
+  (in /Users/tblosser/Desktop/metadata_templates/app/assets/stylesheets/application.css:15)):
+    2: <html>
+    3: <head>
+    4:   <title>Myapp</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1435859739347193759_2202919540'
+
+
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 13:00:38 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 71ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-08 13:00:38 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 13:00:38 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 13:00:38 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-08 13:00:38 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-08 13:00:38 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 13:00:38 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 13:00:38 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-08 13:00:38 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-08 13:00:38 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 13:00:38 -0700
+
+
+Started POST "/new" for 127.0.0.1 at 2014-04-08 17:04:53 -0700
+Processing by JobManagerController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ahzxJYwwnqtDYm32SLAHTWZmIMI8bIT2+erdzTht+2s=", "token"=>"n73Ic28WGSQqwwOeBKUEttqGDItj1d9b", "folder_id"=>"1772792324", "key_1"=>"Photo Type", "value_1"=>"Team Photo", "key_2"=>"Photo Size", "value_2"=>"", "key_3"=>"", "value_3"=>"", "key_4"=>"", "value_4"=>"", "commit"=>"Add Metadata!"}
+response is #<HTTParty::Response:0x101d52788 parsed_response={"Photo Type"=>"Team Photo", "Photo Size"=>"", "$type"=>"properties", "$parent"=>"file_16048620445", "$id"=>"12b73fc0-f9be-421b-a120-d8eec991ebcd"}, @response=#<Net::HTTPCreated 201 Created readbody=true>, @headers={"server"=>["nginx"], "date"=>["Wed, 09 Apr 2014 00:04:53 GMT"], "content-type"=>["application/json"], "content-length"=>["138"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x101d2b638 parsed_response={"Photo Type"=>"Team Photo", "Photo Size"=>"", "$type"=>"properties", "$parent"=>"file_16022099355", "$id"=>"bd7d79ef-8719-43e4-bc29-d889db204b71"}, @response=#<Net::HTTPCreated 201 Created readbody=true>, @headers={"server"=>["nginx"], "date"=>["Wed, 09 Apr 2014 00:04:54 GMT"], "content-type"=>["application/json"], "content-length"=>["138"], "connection"=>["close"]}>
+Redirected to http://localhost:3000/success
+Completed 302 Found in 1353ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/success" for 127.0.0.1 at 2014-04-08 17:04:54 -0700
+Processing by MetadataManagerController#success as HTML
+  Rendered metadata_manager/success.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 45ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-08 17:04:54 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-08 17:04:54 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-08 17:04:54 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 17:04:54 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 17:04:54 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 17:04:54 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 17:04:54 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-08 17:04:54 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-08 17:04:54 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 17:04:54 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-09 20:14:49 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 235ms (Views: 228.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-09 20:14:49 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-09 20:14:49 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-09 20:14:49 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-09 20:14:49 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-09 20:14:49 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-09 20:14:49 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-09 20:14:49 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-09 20:14:49 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-09 20:14:49 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-09 20:14:49 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-09 20:17:14 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 252ms (Views: 240.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-09 20:17:14 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-09 20:17:14 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-09 20:17:14 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-09 20:17:14 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-09 20:17:15 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-09 20:17:15 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-09 20:17:15 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-09 20:17:15 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-09 20:17:15 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-09 20:17:15 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-09 20:17:27 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 36ms (Views: 35.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-09 20:17:27 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-09 20:17:27 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-09 20:17:27 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-09 20:17:27 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-09 20:17:27 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-09 20:17:27 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-09 20:17:27 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-09 20:17:27 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-09 20:17:27 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-09 20:17:27 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-09 20:17:44 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 37ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-09 20:17:44 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-09 20:17:44 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-09 20:17:44 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-09 20:17:44 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-09 20:17:44 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-09 20:17:44 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-09 20:17:44 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-09 20:17:44 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-09 20:17:44 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-09 20:17:44 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-09 20:19:57 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 39ms (Views: 38.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-09 20:19:57 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-09 20:19:57 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-09 20:19:57 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-09 20:19:57 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-09 20:19:57 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-09 20:19:57 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-09 20:19:57 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-09 20:19:57 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-09 20:19:57 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-09 20:19:57 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-09 20:19:58 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 33ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-09 20:19:58 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-09 20:19:58 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-09 20:19:58 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-09 20:19:58 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-09 20:19:58 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-09 20:19:58 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-09 20:19:58 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-09 20:19:58 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-09 20:19:58 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-09 20:19:58 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-09 20:20:46 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 35ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-09 20:20:46 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-09 20:20:46 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-09 20:20:46 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-09 20:20:46 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-09 20:20:46 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-09 20:20:46 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-09 20:20:46 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-09 20:20:46 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-09 20:20:46 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-09 20:20:46 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-09 20:22:24 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 36ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-09 20:22:24 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-09 20:22:24 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-09 20:22:24 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-09 20:22:24 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-09 20:22:24 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-09 20:22:24 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-09 20:22:24 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-09 20:22:24 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-09 20:22:24 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-09 20:22:24 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-09 20:23:12 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 37ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-09 20:23:12 -0700
+
+
+Started GET "/assets/metadata_manager.css?body=1" for 127.0.0.1 at 2014-04-09 20:23:12 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-09 20:23:12 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-09 20:23:12 -0700
+
+
+Started GET "/assets/job_manager.css?body=1" for 127.0.0.1 at 2014-04-09 20:23:12 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-09 20:23:12 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-09 20:23:12 -0700
+
+
+Started GET "/assets/metadata_manager.js?body=1" for 127.0.0.1 at 2014-04-09 20:23:12 -0700
+
+
+Started GET "/assets/job_manager.js?body=1" for 127.0.0.1 at 2014-04-09 20:23:12 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-09 20:23:12 -0700
