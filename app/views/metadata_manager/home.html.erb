@@ -9,62 +9,59 @@
 
 
 
-
+		<div class="row">
 		
 		<%=form_tag new_path do %>
 
 
 
-		<div class="row">
+		
 			<h4>Add Account Info</h4>
 			<%=label_tag :access_token %>
 			<%= text_field_tag :token %>
-		</div>
+		
 
-		<div class="row">
+		
 			<%=label_tag :folder_id %>
 			<%= text_field_tag :folder_id %>
-		</div>
+	
 
-		<br>
-		<div class="row span3">
+		
+
 			<h4>Add keys and values</h4>
 			<%=label_tag :key_1 %>
 			<%= text_field_tag :key_1 %>
 
 			<%=label_tag :default_value %>
 			<%= text_field_tag :value_1 %>
-		</div>
+		
 		
 
 
-		<div class="row">
+
 			<%=label_tag :key_2 %>
 			<%= text_field_tag :key_2 %>
 
 			<%=label_tag :default_value %>
 			<%= text_field_tag :value_2 %>
-		</div>
 
-		<div class="row">
+
+		
 			<%=label_tag :key_3 %>
 			<%= text_field_tag :key_3 %>
 
 			<%=label_tag :default_value %>
 			<%= text_field_tag :value_3 %>
-		</div>
+		
 
-		<div class="row">
+		
 			<%=label_tag :key_4 %>
 			<%= text_field_tag :key_4 %>
 
 			<%=label_tag :default_value %>
 			<%= text_field_tag :value_4 %>
-		</div>
+		
 
-		<br>
-
-		<div class="row">
 			<%=submit_tag "Add Metadata!", class: "btn-bt-large btn-primary"%>
 			<% end %>
 		</div>
