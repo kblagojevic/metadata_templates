@@ -2,24 +2,35 @@ require 'ruby-box'
 require 'httparty'
 require 'spawn'
 
+#amount of keys allowed per submission
+$key_count = 4
+
 
 class JobManagerController < ApplicationController
 
 
 	def new
 
-		#add items from form to a dictionary
+		puts "global variable is #{$key_count}"
+		#Add key items to dictionary
 		job = Hash.new
+		
+		#token and folder 
 		job["token"] = params[:token]
 		job["folder_id"] = params[:folder_id]
-		job["key_1"] = params[:key_1]
-		job["key_2"] = params[:key_2]
-		job["key_3"] = params[:key_3]
-		job["key_4"] = params[:key_4]
-		job["value_1"] = params[:value_1]
-		job["value_2"] = params[:value_2]
-		job["value_3"] = params[:value_3]
-		job["value_4"] = params[:value_4]
+
+		#keys and values added to the job dictionary
+		i = 1
+		
+		while i <= $key_count	
+
+			#add items from form to a dictionary
+			job["key_#{i}"] = params["key_#{i}"]
+			job["value_#{i}"] = params["value_#{i}"]
+			
+			i +=1
+
+		end 
 
 		#create metadata using dictionary
 		create_metadata(job)
@@ -85,58 +96,40 @@ class JobManagerController < ApplicationController
 
  		#add keys to a hash if they exist
  		keys = Hash.new
- 		if !job["key_1"].blank?
- 			key_1 = job["key_1"]
- 			if job["value_1"].blank?
- 				keys["#{key_1}"] = ""
- 			else
- 				keys["#{key_1}"] = job["value_1"]
- 			end
- 		end
 
- 		if !job["key_2"].blank?
- 			key_2 = job["key_2"]
- 			if job["value_2"].blank?
- 				keys["#{key_2}"] = ""
- 			else
- 				keys["#{key_2}"] = job["value_2"]
- 			end
- 		end
+ 		i=1
+ 		while i <= $key_count
+	 		#if key exists, add it to a string
+	 		if !job["key_#{i}"].blank?
+	 			key_field = job["key_#{i}"]
 
- 		if !job["key_3"].blank?
- 			key_3 = job["key_3"]
- 			if job["value_3"].blank?
- 				keys["#{key_3}"] = ""
- 			else
- 				keys["#{key_3}"] = job["value_3"]
- 			end
- 		end
+	 			#if the value is blank, add the key with a empty value
+	 			if job["value_#{i}"].blank?
+	 				keys["#{key_field}"] = ""
+				#if the value is not blank, add the value to the key
+				else
+					keys["#{key_field}"] = job["value_#{i}"]
+				end
+			end
 
- 		if !job["key_4"].blank?
- 			key_4 = job["key_4"]
- 			if job["value_4"].blank?
- 				keys["#{key_4}"] = ""
- 			else
- 				keys["#{key_4}"] = job["value_4"]
- 			end
- 		end
+			i +=1
+		end
 
- 		#initialize box headers\
+
+ 		#initialize box headers
  		box_token = "Bearer #{job["token"]}"
 
- 		###add metadata keys for each file
+ 		#add metadata keys for each file
  		file_ids.each do |f| 
  			response = HTTParty.post("https://api.box.com/2.0/files/#{f}/metadata/properties",
  					:headers => { "Authorization" => box_token, "Content-Type" => "application/json"},
  					:body => keys.to_json)
- 			logger.debug "response is #{response.inspect}"
  			
  			#if the properties object exists, perform an update. This will only be additive; if the keys exist
  			#already, it will not allow them to be added
  			if response.code == 409
 
  				patch = Array.new
- 				#keys.each_key do |key|
  				keys.each do |key,value|
  					patch.push({ 'op' => 'add', 'path' => "/#{key}", 'value' => "#{value}"})
  				end
@@ -145,7 +138,6 @@ class JobManagerController < ApplicationController
  				response = HTTParty.put("https://api.box.com/2.0/files/#{f}/metadata/properties",
  					:headers => { "Authorization" => box_token, "Content-Type" => "application/json-patch+json"},
  					:body => json_patch)
- 					logger.debug "response is #{response.inspect}"
  			end
 
  		end
@@ -154,7 +146,7 @@ class JobManagerController < ApplicationController
 
 
 
-	 #function to create client for box ruby sdk
+	 ###function to create client for box ruby sdk - not currently used
   def create_ruby_client(token)
     
     #initialize session with ruby gem
