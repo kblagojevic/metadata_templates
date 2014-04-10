@@ -12780,3 +12780,303 @@ Started GET "/assets/application.css" for 127.0.0.1 at 2014-04-09 20:53:25 -0700
 
 
 Started GET "/assets/application.js" for 127.0.0.1 at 2014-04-09 20:53:25 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-09 21:13:57 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 25ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-04-09 21:13:57 -0700
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-04-09 21:13:57 -0700
+
+
+Started POST "/new" for 127.0.0.1 at 2014-04-09 21:15:47 -0700
+
+SyntaxError (/Users/tblosser/Desktop/metadata_templates/app/controllers/job_manager_controller.rb:176: syntax error, unexpected end-of-input, expecting keyword_end):
+  activesupport (4.1.0.rc2) lib/active_support/dependencies.rb:443:in `load'
+  activesupport (4.1.0.rc2) lib/active_support/dependencies.rb:443:in `block in load_file'
+  activesupport (4.1.0.rc2) lib/active_support/dependencies.rb:633:in `new_constants_in'
+  activesupport (4.1.0.rc2) lib/active_support/dependencies.rb:442:in `load_file'
+  activesupport (4.1.0.rc2) lib/active_support/dependencies.rb:342:in `require_or_load'
+  activesupport (4.1.0.rc2) lib/active_support/dependencies.rb:480:in `load_missing_constant'
+  activesupport (4.1.0.rc2) lib/active_support/dependencies.rb:180:in `const_missing'
+  activesupport (4.1.0.rc2) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.0.rc2) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.0.rc2) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.0.rc2) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.0.rc2) lib/active_support/inflector/methods.rb:236:in `constantize'
+  activesupport (4.1.0.rc2) lib/active_support/dependencies.rb:552:in `get'
+  activesupport (4.1.0.rc2) lib/active_support/dependencies.rb:583:in `constantize'
+  actionpack (4.1.0.rc2) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.0.rc2) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.0.rc2) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0.rc2) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0.rc2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0.rc2) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0.rc2) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0.rc2) lib/rails/engine.rb:515:in `call'
+  railties (4.1.0.rc2) lib/rails/application.rb:142:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.9ms)
+
+
+Started POST "/new" for 127.0.0.1 at 2014-04-09 21:16:08 -0700
+Processing by JobManagerController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ahzxJYwwnqtDYm32SLAHTWZmIMI8bIT2+erdzTht+2s=", "token"=>"XGs4tRhrpmRxk2eiZ2ZAbxQqRIaWmvW9", "folder_id"=>"1792290055", "key_1"=>"customer name", "value_1"=>"salesforce", "key_2"=>"client_id", "value_2"=>"23498234", "key_3"=>"", "value_3"=>"", "key_4"=>"", "value_4"=>"", "commit"=>"Add Metadata!"}
+response is #<HTTParty::Response:0x10179d9a0 parsed_response={"customer name"=>"salesforce", "client_id"=>"23498234", "$type"=>"properties", "$parent"=>"file_16087533935", "$id"=>"14e71bba-03fa-4cd5-8cc0-b80fc448409c"}, @response=#<Net::HTTPCreated 201 Created readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:16:09 GMT"], "content-type"=>["application/json"], "content-length"=>["148"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x10178cbf0 parsed_response={"customer name"=>"salesforce", "client_id"=>"23498234", "$type"=>"properties", "$parent"=>"file_16087533355", "$id"=>"14cf52bf-130d-4719-9217-35f57a3681d2"}, @response=#<Net::HTTPCreated 201 Created readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:16:10 GMT"], "content-type"=>["application/json"], "content-length"=>["148"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x101776260 parsed_response={"customer name"=>"salesforce", "client_id"=>"23498234", "$type"=>"properties", "$parent"=>"file_16087535103", "$id"=>"9c2cb636-df24-4a57-bfaf-f61558710a4e"}, @response=#<Net::HTTPCreated 201 Created readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:16:11 GMT"], "content-type"=>["application/json"], "content-length"=>["148"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x101764a38 parsed_response={"customer name"=>"salesforce", "client_id"=>"23498234", "$type"=>"properties", "$parent"=>"file_16087534729", "$id"=>"513c70e3-e8ad-4634-bf2a-50683441ee69"}, @response=#<Net::HTTPCreated 201 Created readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:16:12 GMT"], "content-type"=>["application/json"], "content-length"=>["148"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x10174dbf8 parsed_response={"customer name"=>"salesforce", "client_id"=>"23498234", "$type"=>"properties", "$parent"=>"file_16087534343", "$id"=>"a97e63e4-14fb-4853-ba2b-3b638abaf4ca"}, @response=#<Net::HTTPCreated 201 Created readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:16:12 GMT"], "content-type"=>["application/json"], "content-length"=>["148"], "connection"=>["close"]}>
+Redirected to http://localhost:3000/success
+Completed 302 Found in 4430ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/success" for 127.0.0.1 at 2014-04-09 21:16:13 -0700
+Processing by MetadataManagerController#success as HTML
+  Rendered metadata_manager/success.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-04-09 21:16:13 -0700
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-04-09 21:16:13 -0700
+
+
+Started POST "/new" for 127.0.0.1 at 2014-04-09 21:24:19 -0700
+Processing by JobManagerController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ahzxJYwwnqtDYm32SLAHTWZmIMI8bIT2+erdzTht+2s=", "token"=>"XGs4tRhrpmRxk2eiZ2ZAbxQqRIaWmvW9", "folder_id"=>"1792290055", "key_1"=>"customer name", "value_1"=>"salesforce", "key_2"=>"client_id", "value_2"=>"23498234", "key_3"=>"", "value_3"=>"", "key_4"=>"", "value_4"=>"", "commit"=>"Add Metadata!"}
+response is #<HTTParty::Response:0x10152d080 parsed_response={"message"=>"Unique constraint violated by instance 'd565e227-5cd5-49fc-9796-40bbe87254de'", "code"=>"conflict", "request_id"=>"208709768553461cf470986"}, @response=#<Net::HTTPConflict 409 Conflict readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:24:21 GMT"], "content-type"=>["application/json"], "content-length"=>["148"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x101959a00 parsed_response={"customer name"=>"salesforce", "client_id"=>"23498234", "$type"=>"properties", "$parent"=>"file_16087533935", "$id"=>"14e71bba-03fa-4cd5-8cc0-b80fc448409c"}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:24:21 GMT"], "content-type"=>["application/json"], "content-length"=>["148"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x10150d6b8 parsed_response={"message"=>"Unique constraint violated by instance 'b7c36127-d652-4713-83a6-5be019f1b264'", "code"=>"conflict", "request_id"=>"93357365153461cf5e0591"}, @response=#<Net::HTTPConflict 409 Conflict readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:24:22 GMT"], "content-type"=>["application/json"], "content-length"=>["147"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x1025c0f78 parsed_response={"customer name"=>"salesforce", "client_id"=>"23498234", "$type"=>"properties", "$parent"=>"file_16087533355", "$id"=>"14cf52bf-130d-4719-9217-35f57a3681d2"}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:24:23 GMT"], "content-type"=>["application/json"], "content-length"=>["148"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x10259bf20 parsed_response={"message"=>"Unique constraint violated by instance 'efd8f9cc-bdbf-43a2-9ae2-2cf63650c277'", "code"=>"conflict", "request_id"=>"131671853461cf75154f"}, @response=#<Net::HTTPConflict 409 Conflict readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:24:23 GMT"], "content-type"=>["application/json"], "content-length"=>["145"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x102966f38 parsed_response={"customer name"=>"salesforce", "client_id"=>"23498234", "$type"=>"properties", "$parent"=>"file_16087535103", "$id"=>"9c2cb636-df24-4a57-bfaf-f61558710a4e"}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:24:24 GMT"], "content-type"=>["application/json"], "content-length"=>["148"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x1014ce7d8 parsed_response={"message"=>"Unique constraint violated by instance '585d5943-c71b-42e5-86b5-516b9a90047b'", "code"=>"conflict", "request_id"=>"52170635953461cf8a7de0"}, @response=#<Net::HTTPConflict 409 Conflict readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:24:24 GMT"], "content-type"=>["application/json"], "content-length"=>["147"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x1014b6db8 parsed_response={"customer name"=>"salesforce", "client_id"=>"23498234", "$type"=>"properties", "$parent"=>"file_16087534729", "$id"=>"513c70e3-e8ad-4634-bf2a-50683441ee69"}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:24:25 GMT"], "content-type"=>["application/json"], "content-length"=>["148"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x10148ef98 parsed_response={"message"=>"Unique constraint violated by instance '18812d26-0187-462d-b575-2939434a0c29'", "code"=>"conflict", "request_id"=>"131671853461cf9dcc66"}, @response=#<Net::HTTPConflict 409 Conflict readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:24:26 GMT"], "content-type"=>["application/json"], "content-length"=>["145"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x1025698b8 parsed_response={"customer name"=>"salesforce", "client_id"=>"23498234", "$type"=>"properties", "$parent"=>"file_16087534343", "$id"=>"a97e63e4-14fb-4853-ba2b-3b638abaf4ca"}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:24:26 GMT"], "content-type"=>["application/json"], "content-length"=>["148"], "connection"=>["close"]}>
+Redirected to http://localhost:3000/success
+Completed 302 Found in 7218ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/success" for 127.0.0.1 at 2014-04-09 21:24:26 -0700
+Processing by MetadataManagerController#success as HTML
+  Rendered metadata_manager/success.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-04-09 21:24:26 -0700
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-04-09 21:24:26 -0700
+
+
+Started POST "/new" for 127.0.0.1 at 2014-04-09 21:24:35 -0700
+Processing by JobManagerController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ahzxJYwwnqtDYm32SLAHTWZmIMI8bIT2+erdzTht+2s=", "token"=>"XGs4tRhrpmRxk2eiZ2ZAbxQqRIaWmvW9", "folder_id"=>"1792290055", "key_1"=>"Hello", "value_1"=>"there", "key_2"=>"whatsup", "value_2"=>"sdlfkshjdf", "key_3"=>"", "value_3"=>"", "key_4"=>"", "value_4"=>"", "commit"=>"Add Metadata!"}
+response is #<HTTParty::Response:0x1013fb5e0 parsed_response={"message"=>"Unique constraint violated by instance '7f173b42-e566-43ef-b5fa-ed49aceaaa3a'", "code"=>"conflict", "request_id"=>"191819862853461d040ed6d"}, @response=#<Net::HTTPConflict 409 Conflict readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:24:36 GMT"], "content-type"=>["application/json"], "content-length"=>["148"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x1023833f0 parsed_response={"customer name"=>"salesforce", "client_id"=>"23498234", "$type"=>"properties", "$parent"=>"file_16087533935", "$id"=>"14e71bba-03fa-4cd5-8cc0-b80fc448409c", "Hello"=>"there", "whatsup"=>"sdlfkshjdf"}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:24:37 GMT"], "content-type"=>["application/json"], "content-length"=>["187"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x102351468 parsed_response={"message"=>"Unique constraint violated by instance 'b3c1e622-24c5-4a49-b71e-6ea7f972921c'", "code"=>"conflict", "request_id"=>"61428725953461d054c178"}, @response=#<Net::HTTPConflict 409 Conflict readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:24:37 GMT"], "content-type"=>["application/json"], "content-length"=>["147"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x10133bfb0 parsed_response={"customer name"=>"salesforce", "client_id"=>"23498234", "$type"=>"properties", "$parent"=>"file_16087533355", "$id"=>"14cf52bf-130d-4719-9217-35f57a3681d2", "Hello"=>"there", "whatsup"=>"sdlfkshjdf"}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:24:38 GMT"], "content-type"=>["application/json"], "content-length"=>["187"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x10130bce8 parsed_response={"message"=>"Unique constraint violated by instance 'cade730c-abe1-4404-b293-9df168b16558'", "code"=>"conflict", "request_id"=>"79412636353461d067c2e5"}, @response=#<Net::HTTPConflict 409 Conflict readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:24:38 GMT"], "content-type"=>["application/json"], "content-length"=>["147"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x1012cb418 parsed_response={"customer name"=>"salesforce", "client_id"=>"23498234", "$type"=>"properties", "$parent"=>"file_16087535103", "$id"=>"9c2cb636-df24-4a57-bfaf-f61558710a4e", "Hello"=>"there", "whatsup"=>"sdlfkshjdf"}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:24:39 GMT"], "content-type"=>["application/json"], "content-length"=>["187"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x10288d058 parsed_response={"message"=>"Unique constraint violated by instance '55dda945-3d2b-4995-a063-6338f5a24978'", "code"=>"conflict", "request_id"=>"61428725953461d07d9cca"}, @response=#<Net::HTTPConflict 409 Conflict readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:24:40 GMT"], "content-type"=>["application/json"], "content-length"=>["147"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x1022406c8 parsed_response={"customer name"=>"salesforce", "client_id"=>"23498234", "$type"=>"properties", "$parent"=>"file_16087534729", "$id"=>"513c70e3-e8ad-4634-bf2a-50683441ee69", "Hello"=>"there", "whatsup"=>"sdlfkshjdf"}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:24:40 GMT"], "content-type"=>["application/json"], "content-length"=>["187"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x1021a08a8 parsed_response={"message"=>"Unique constraint violated by instance 'a3edf351-a9e2-46d5-b141-f7f1e3f3c241'", "code"=>"conflict", "request_id"=>"200102173853461d0912893"}, @response=#<Net::HTTPConflict 409 Conflict readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:24:42 GMT"], "content-type"=>["application/json"], "content-length"=>["148"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x1020e7290 parsed_response={"customer name"=>"salesforce", "client_id"=>"23498234", "$type"=>"properties", "$parent"=>"file_16087534343", "$id"=>"a97e63e4-14fb-4853-ba2b-3b638abaf4ca", "Hello"=>"there", "whatsup"=>"sdlfkshjdf"}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:24:43 GMT"], "content-type"=>["application/json"], "content-length"=>["187"], "connection"=>["close"]}>
+Redirected to http://localhost:3000/success
+Completed 302 Found in 7872ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/success" for 127.0.0.1 at 2014-04-09 21:24:43 -0700
+Processing by MetadataManagerController#success as HTML
+  Rendered metadata_manager/success.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 40ms (Views: 38.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-04-09 21:24:43 -0700
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-04-09 21:24:43 -0700
+
+
+Started POST "/new" for 127.0.0.1 at 2014-04-09 21:32:57 -0700
+Processing by JobManagerController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ahzxJYwwnqtDYm32SLAHTWZmIMI8bIT2+erdzTht+2s=", "token"=>"XGs4tRhrpmRxk2eiZ2ZAbxQqRIaWmvW9", "folder_id"=>"1792290055", "key_1"=>"Hello", "value_1"=>"there", "key_2"=>"whatsup", "value_2"=>"sdlfkshjdf", "key_3"=>"", "value_3"=>"", "key_4"=>"", "value_4"=>"", "commit"=>"Add Metadata!"}
+response is #<HTTParty::Response:0x1062a1d98 parsed_response={"message"=>"Unique constraint violated by instance '32879a18-eb2c-44e7-a82a-a44a607637ba'", "code"=>"conflict", "request_id"=>"108512181553461efa048f5"}, @response=#<Net::HTTPConflict 409 Conflict readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:32:58 GMT"], "content-type"=>["application/json"], "content-length"=>["148"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x1062918d0 parsed_response={"customer name"=>"salesforce", "client_id"=>"23498234", "$type"=>"properties", "$parent"=>"file_16087533935", "$id"=>"14e71bba-03fa-4cd5-8cc0-b80fc448409c", "Hello"=>"there", "whatsup"=>"sdlfkshjdf"}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:32:59 GMT"], "content-type"=>["application/json"], "content-length"=>["187"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x106281840 parsed_response={"message"=>"Unique constraint violated by instance 'f5369363-227f-4bef-a999-f1c4ae39cdcd'", "code"=>"conflict", "request_id"=>"139899226653461efbaf105"}, @response=#<Net::HTTPConflict 409 Conflict readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:33:00 GMT"], "content-type"=>["application/json"], "content-length"=>["148"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x106271530 parsed_response={"customer name"=>"salesforce", "client_id"=>"23498234", "$type"=>"properties", "$parent"=>"file_16087533355", "$id"=>"14cf52bf-130d-4719-9217-35f57a3681d2", "Hello"=>"there", "whatsup"=>"sdlfkshjdf"}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:33:01 GMT"], "content-type"=>["application/json"], "content-length"=>["187"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x106260820 parsed_response={"message"=>"Unique constraint violated by instance '1b816534-4d18-46da-805f-2c4b87d9ad3a'", "code"=>"conflict", "request_id"=>"210000943053461efd4658d"}, @response=#<Net::HTTPConflict 409 Conflict readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:33:01 GMT"], "content-type"=>["application/json"], "content-length"=>["148"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x106248040 parsed_response={"customer name"=>"salesforce", "client_id"=>"23498234", "$type"=>"properties", "$parent"=>"file_16087535103", "$id"=>"9c2cb636-df24-4a57-bfaf-f61558710a4e", "Hello"=>"there", "whatsup"=>"sdlfkshjdf"}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:33:02 GMT"], "content-type"=>["application/json"], "content-length"=>["187"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x106231570 parsed_response={"message"=>"Unique constraint violated by instance '261d427e-bb9f-4131-8776-e730f29970b4'", "code"=>"conflict", "request_id"=>"82886825653461efe9cb40"}, @response=#<Net::HTTPConflict 409 Conflict readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:33:02 GMT"], "content-type"=>["application/json"], "content-length"=>["147"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x10621bc48 parsed_response={"customer name"=>"salesforce", "client_id"=>"23498234", "$type"=>"properties", "$parent"=>"file_16087534729", "$id"=>"513c70e3-e8ad-4634-bf2a-50683441ee69", "Hello"=>"there", "whatsup"=>"sdlfkshjdf"}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:33:03 GMT"], "content-type"=>["application/json"], "content-length"=>["187"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x10620b230 parsed_response={"message"=>"Unique constraint violated by instance '4d38f753-43e5-44b4-ba16-94cb46dd38a1'", "code"=>"conflict", "request_id"=>"134387539053461effdf36f"}, @response=#<Net::HTTPConflict 409 Conflict readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:33:04 GMT"], "content-type"=>["application/json"], "content-length"=>["148"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x1061fa278 parsed_response={"customer name"=>"salesforce", "client_id"=>"23498234", "$type"=>"properties", "$parent"=>"file_16087534343", "$id"=>"a97e63e4-14fb-4853-ba2b-3b638abaf4ca", "Hello"=>"there", "whatsup"=>"sdlfkshjdf"}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:33:04 GMT"], "content-type"=>["application/json"], "content-length"=>["187"], "connection"=>["close"]}>
+Redirected to http://localhost:3000/success
+Completed 302 Found in 7582ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/success" for 127.0.0.1 at 2014-04-09 21:33:04 -0700
+Processing by MetadataManagerController#success as HTML
+  Rendered metadata_manager/success.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-04-09 21:33:05 -0700
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-04-09 21:33:05 -0700
+
+
+Started POST "/new" for 127.0.0.1 at 2014-04-09 21:33:54 -0700
+Processing by JobManagerController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ahzxJYwwnqtDYm32SLAHTWZmIMI8bIT2+erdzTht+2s=", "token"=>"XGs4tRhrpmRxk2eiZ2ZAbxQqRIaWmvW9", "folder_id"=>"1792290055", "key_1"=>"nest", "value_1"=>"test", "key_2"=>"for", "value_2"=>"birds", "key_3"=>"", "value_3"=>"", "key_4"=>"", "value_4"=>"", "commit"=>"Add Metadata!"}
+response is #<HTTParty::Response:0x1068cba20 parsed_response={"nest"=>"test", "for"=>"birds", "$type"=>"properties", "$parent"=>"file_16087868577", "$id"=>"d97b8503-6574-4637-872e-0abb019aaeb6"}, @response=#<Net::HTTPCreated 201 Created readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:33:55 GMT"], "content-type"=>["application/json"], "content-length"=>["124"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x106151768 parsed_response={"nest"=>"test", "for"=>"birds", "$type"=>"properties", "$parent"=>"file_16087868003", "$id"=>"8a650f50-5d16-4887-a1ba-adb476f7a455"}, @response=#<Net::HTTPCreated 201 Created readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:33:56 GMT"], "content-type"=>["application/json"], "content-length"=>["124"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x10613bb48 parsed_response={"nest"=>"test", "for"=>"birds", "$type"=>"properties", "$parent"=>"file_16087867361", "$id"=>"14323f33-b60f-417d-adce-aff09d50adf1"}, @response=#<Net::HTTPCreated 201 Created readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:33:57 GMT"], "content-type"=>["application/json"], "content-length"=>["124"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x10612a528 parsed_response={"message"=>"Unique constraint violated by instance '2915a790-ec0e-4091-bc47-0e54c6d2c11f'", "code"=>"conflict", "request_id"=>"64785085353461f35306c1"}, @response=#<Net::HTTPConflict 409 Conflict readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:33:57 GMT"], "content-type"=>["application/json"], "content-length"=>["147"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x1068b8880 parsed_response={"customer name"=>"salesforce", "client_id"=>"23498234", "$type"=>"properties", "$parent"=>"file_16087533935", "$id"=>"14e71bba-03fa-4cd5-8cc0-b80fc448409c", "Hello"=>"there", "whatsup"=>"sdlfkshjdf", "nest"=>"test", "for"=>"birds"}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:33:58 GMT"], "content-type"=>["application/json"], "content-length"=>["215"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x1068b2fc0 parsed_response={"message"=>"Unique constraint violated by instance '875581a9-7b48-4aff-83d1-0bb2ddd15245'", "code"=>"conflict", "request_id"=>"97879128453461f36587f3"}, @response=#<Net::HTTPConflict 409 Conflict readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:33:58 GMT"], "content-type"=>["application/json"], "content-length"=>["147"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x1068a1130 parsed_response={"customer name"=>"salesforce", "client_id"=>"23498234", "$type"=>"properties", "$parent"=>"file_16087533355", "$id"=>"14cf52bf-130d-4719-9217-35f57a3681d2", "Hello"=>"there", "whatsup"=>"sdlfkshjdf", "nest"=>"test", "for"=>"birds"}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:33:59 GMT"], "content-type"=>["application/json"], "content-length"=>["215"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x106113530 parsed_response={"message"=>"Unique constraint violated by instance 'b5bd29b3-52ad-40db-8f14-427b607fe49f'", "code"=>"conflict", "request_id"=>"60494347253461f37c9aad"}, @response=#<Net::HTTPConflict 409 Conflict readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:34:00 GMT"], "content-type"=>["application/json"], "content-length"=>["147"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x106101330 parsed_response={"customer name"=>"salesforce", "client_id"=>"23498234", "$type"=>"properties", "$parent"=>"file_16087535103", "$id"=>"9c2cb636-df24-4a57-bfaf-f61558710a4e", "Hello"=>"there", "whatsup"=>"sdlfkshjdf", "nest"=>"test", "for"=>"birds"}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:34:01 GMT"], "content-type"=>["application/json"], "content-length"=>["215"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x10687b610 parsed_response={"message"=>"Unique constraint violated by instance '15ce4840-1036-4ce7-a638-2cef6e416ff7'", "code"=>"conflict", "request_id"=>"78660667153461f3985019"}, @response=#<Net::HTTPConflict 409 Conflict readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:34:01 GMT"], "content-type"=>["application/json"], "content-length"=>["147"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x102a9cec0 parsed_response={"customer name"=>"salesforce", "client_id"=>"23498234", "$type"=>"properties", "$parent"=>"file_16087534729", "$id"=>"513c70e3-e8ad-4634-bf2a-50683441ee69", "Hello"=>"there", "whatsup"=>"sdlfkshjdf", "nest"=>"test", "for"=>"birds"}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:34:02 GMT"], "content-type"=>["application/json"], "content-length"=>["215"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x106871a70 parsed_response={"message"=>"Unique constraint violated by instance '892167b3-2e91-4411-b2fe-e505c894ea99'", "code"=>"conflict", "request_id"=>"145047858753461f3b19d58"}, @response=#<Net::HTTPConflict 409 Conflict readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:34:03 GMT"], "content-type"=>["application/json"], "content-length"=>["148"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x10685a7f8 parsed_response={"customer name"=>"salesforce", "client_id"=>"23498234", "$type"=>"properties", "$parent"=>"file_16087534343", "$id"=>"a97e63e4-14fb-4853-ba2b-3b638abaf4ca", "Hello"=>"there", "whatsup"=>"sdlfkshjdf", "nest"=>"test", "for"=>"birds"}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:34:04 GMT"], "content-type"=>["application/json"], "content-length"=>["215"], "connection"=>["close"]}>
+Redirected to http://localhost:3000/success
+Completed 302 Found in 10267ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/success" for 127.0.0.1 at 2014-04-09 21:34:04 -0700
+Processing by MetadataManagerController#success as HTML
+  Rendered metadata_manager/success.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-04-09 21:34:04 -0700
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-04-09 21:34:04 -0700
+
+
+Started POST "/new" for 127.0.0.1 at 2014-04-09 21:34:49 -0700
+Processing by JobManagerController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ahzxJYwwnqtDYm32SLAHTWZmIMI8bIT2+erdzTht+2s=", "token"=>"XGs4tRhrpmRxk2eiZ2ZAbxQqRIaWmvW9", "folder_id"=>"1792290055", "key_1"=>"doublenest", "value_1"=>"test", "key_2"=>"for ", "value_2"=>"big birds!", "key_3"=>"", "value_3"=>"", "key_4"=>"", "value_4"=>"", "commit"=>"Add Metadata!"}
+response is #<HTTParty::Response:0x1027f2da0 parsed_response={"doublenest"=>"test", "for "=>"big birds!", "$type"=>"properties", "$parent"=>"file_16087883795", "$id"=>"f70b7915-9887-499e-98f4-5bfdd3ca5d6d"}, @response=#<Net::HTTPCreated 201 Created readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:34:51 GMT"], "content-type"=>["application/json"], "content-length"=>["136"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x1027e1780 parsed_response={"doublenest"=>"test", "for "=>"big birds!", "$type"=>"properties", "$parent"=>"file_16087883435", "$id"=>"9a652f83-a6e2-4a56-8cff-6dcab8ff07aa"}, @response=#<Net::HTTPCreated 201 Created readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:34:52 GMT"], "content-type"=>["application/json"], "content-length"=>["136"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x1027cbc78 parsed_response={"doublenest"=>"test", "for "=>"big birds!", "$type"=>"properties", "$parent"=>"file_16087882869", "$id"=>"e538233c-96f5-4bd7-a850-9c8aa5694f44"}, @response=#<Net::HTTPCreated 201 Created readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:34:52 GMT"], "content-type"=>["application/json"], "content-length"=>["136"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x1027b99b0 parsed_response={"message"=>"Unique constraint violated by instance 'bd3c6113-4272-4a00-9ab6-5a2aad99a376'", "code"=>"conflict", "request_id"=>"17802600153461f6d0fa26"}, @response=#<Net::HTTPConflict 409 Conflict readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:34:53 GMT"], "content-type"=>["application/json"], "content-length"=>["147"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x102a8f338 parsed_response={"nest"=>"test", "for"=>"birds", "$type"=>"properties", "$parent"=>"file_16087868577", "$id"=>"d97b8503-6574-4637-872e-0abb019aaeb6", "doublenest"=>"test", "for "=>"big birds!"}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:34:54 GMT"], "content-type"=>["application/json"], "content-length"=>["164"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x106068978 parsed_response={"message"=>"Unique constraint violated by instance '804c3097-b7e0-4129-84a3-94e278a9c359'", "code"=>"conflict", "request_id"=>"196117388353461f6e5d3f0"}, @response=#<Net::HTTPConflict 409 Conflict readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:34:54 GMT"], "content-type"=>["application/json"], "content-length"=>["148"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x1060507d8 parsed_response={"nest"=>"test", "for"=>"birds", "$type"=>"properties", "$parent"=>"file_16087868003", "$id"=>"8a650f50-5d16-4887-a1ba-adb476f7a455", "doublenest"=>"test", "for "=>"big birds!"}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:34:55 GMT"], "content-type"=>["application/json"], "content-length"=>["164"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x10603aa00 parsed_response={"message"=>"Unique constraint violated by instance '76a22df7-b543-47fd-b553-acb8276c8c48'", "code"=>"conflict", "request_id"=>"210834530653461f6f84194"}, @response=#<Net::HTTPConflict 409 Conflict readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:34:55 GMT"], "content-type"=>["application/json"], "content-length"=>["148"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x106023328 parsed_response={"nest"=>"test", "for"=>"birds", "$type"=>"properties", "$parent"=>"file_16087867361", "$id"=>"14323f33-b60f-417d-adce-aff09d50adf1", "doublenest"=>"test", "for "=>"big birds!"}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:34:56 GMT"], "content-type"=>["application/json"], "content-length"=>["164"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x1060116c8 parsed_response={"message"=>"Unique constraint violated by instance 'c92c2a12-6d76-45b8-9591-40210594a785'", "code"=>"conflict", "request_id"=>"139848282653461f70bbb64"}, @response=#<Net::HTTPConflict 409 Conflict readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:34:57 GMT"], "content-type"=>["application/json"], "content-length"=>["148"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x10600b070 parsed_response={"customer name"=>"salesforce", "client_id"=>"23498234", "$type"=>"properties", "$parent"=>"file_16087533935", "$id"=>"14e71bba-03fa-4cd5-8cc0-b80fc448409c", "Hello"=>"there", "whatsup"=>"sdlfkshjdf", "nest"=>"test", "for"=>"birds", "doublenest"=>"test", "for "=>"big birds!"}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:34:57 GMT"], "content-type"=>["application/json"], "content-length"=>["255"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x102788978 parsed_response={"message"=>"Unique constraint violated by instance '4e11db45-cfff-4f3f-92df-5bb88df67f65'", "code"=>"conflict", "request_id"=>"120886381653461f71f3f73"}, @response=#<Net::HTTPConflict 409 Conflict readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:34:58 GMT"], "content-type"=>["application/json"], "content-length"=>["148"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x1060016d8 parsed_response={"customer name"=>"salesforce", "client_id"=>"23498234", "$type"=>"properties", "$parent"=>"file_16087533355", "$id"=>"14cf52bf-130d-4719-9217-35f57a3681d2", "Hello"=>"there", "whatsup"=>"sdlfkshjdf", "nest"=>"test", "for"=>"birds", "doublenest"=>"test", "for "=>"big birds!"}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:34:58 GMT"], "content-type"=>["application/json"], "content-length"=>["255"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x102772998 parsed_response={"message"=>"Unique constraint violated by instance '3e7424ca-648b-47a7-9781-d03b8eba8483'", "code"=>"conflict", "request_id"=>"116825331253461f7339cc8"}, @response=#<Net::HTTPConflict 409 Conflict readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:35:00 GMT"], "content-type"=>["application/json"], "content-length"=>["148"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x102763f10 parsed_response={"customer name"=>"salesforce", "client_id"=>"23498234", "$type"=>"properties", "$parent"=>"file_16087535103", "$id"=>"9c2cb636-df24-4a57-bfaf-f61558710a4e", "Hello"=>"there", "whatsup"=>"sdlfkshjdf", "nest"=>"test", "for"=>"birds", "doublenest"=>"test", "for "=>"big birds!"}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:35:01 GMT"], "content-type"=>["application/json"], "content-length"=>["255"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x102751630 parsed_response={"message"=>"Unique constraint violated by instance '559c7a59-3764-46cb-bdfc-536c170f5828'", "code"=>"conflict", "request_id"=>"174104490153461f7558f68"}, @response=#<Net::HTTPConflict 409 Conflict readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:35:01 GMT"], "content-type"=>["application/json"], "content-length"=>["148"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x102739ee0 parsed_response={"customer name"=>"salesforce", "client_id"=>"23498234", "$type"=>"properties", "$parent"=>"file_16087534729", "$id"=>"513c70e3-e8ad-4634-bf2a-50683441ee69", "Hello"=>"there", "whatsup"=>"sdlfkshjdf", "nest"=>"test", "for"=>"birds", "doublenest"=>"test", "for "=>"big birds!"}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:35:02 GMT"], "content-type"=>["application/json"], "content-length"=>["255"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x102723b90 parsed_response={"message"=>"Unique constraint violated by instance 'ea6691fa-5a3e-4bd6-9199-8fd94dfb15ed'", "code"=>"conflict", "request_id"=>"120886381653461f76b0d34"}, @response=#<Net::HTTPConflict 409 Conflict readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:35:03 GMT"], "content-type"=>["application/json"], "content-length"=>["148"], "connection"=>["close"]}>
+response is #<HTTParty::Response:0x102710c70 parsed_response={"customer name"=>"salesforce", "client_id"=>"23498234", "$type"=>"properties", "$parent"=>"file_16087534343", "$id"=>"a97e63e4-14fb-4853-ba2b-3b638abaf4ca", "Hello"=>"there", "whatsup"=>"sdlfkshjdf", "nest"=>"test", "for"=>"birds", "doublenest"=>"test", "for "=>"big birds!"}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"server"=>["nginx"], "date"=>["Thu, 10 Apr 2014 04:35:04 GMT"], "content-type"=>["application/json"], "content-length"=>["255"], "connection"=>["close"]}>
+Redirected to http://localhost:3000/success
+Completed 302 Found in 15217ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/success" for 127.0.0.1 at 2014-04-09 21:35:04 -0700
+Processing by MetadataManagerController#success as HTML
+  Rendered metadata_manager/success.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-04-09 21:35:04 -0700
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-04-09 21:35:04 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-09 21:36:26 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-04-09 21:36:26 -0700
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-04-09 21:36:26 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-09 21:36:34 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-04-09 21:36:34 -0700
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-04-09 21:36:34 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-09 21:36:59 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-04-09 21:36:59 -0700
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-04-09 21:36:59 -0700

@@ -33,12 +33,43 @@ class JobManagerController < ApplicationController
 
 	end
 
-	def get_files_for_folder(job)
+	def get_files(job)
+
+		#client = job["client"]
+		#box_token = "Bearer #{job["token"]}"
+		folder_id = job["folder_id"]
+
+		#response = HTTParty.get("https://api.box.com/2.0/folders/#{folder_id}/items",
+ 		#			:headers => { "Authorization" => box_token})
+
+		#get all files within the specified folder
+		#items = response.parsed_response["entries"]
+		#file_ids = Array.new
+		#items.each do |item|
+		#	if item["type"] == "file"
+		#		file_ids.push(item["id"])
+		#	end
+		#end	
+
+		file_ids = Array.new
+		file_ids =get_files_for_folder(job, folder_id)
+
+		#files = get_files_for_folder(job, folder_id)
+
+
+		return file_ids
+
+	end
+ 					
+	
+
+	def get_files_for_folder(job, folder_id)
 
 		client = job["client"]
 		box_token = "Bearer #{job["token"]}"
 
-		response = HTTParty.get("https://api.box.com/2.0/folders/#{job["folder_id"]}/items",
+
+		response = HTTParty.get("https://api.box.com/2.0/folders/#{folder_id}/items",
  					:headers => { "Authorization" => box_token})
 
 		#get all files within the specified folder
@@ -48,19 +79,24 @@ class JobManagerController < ApplicationController
 			if item["type"] == "file"
 				file_ids.push(item["id"])
 			end
+
+			if item["type"] == "folder"
+				nested_file_ids = Array.new
+				nested_file_ids = get_files_for_folder(job, item["id"])
+				file_ids = file_ids + nested_file_ids
+			end
 		end	
 
 		return file_ids
- 					
+
 	end
 
 
 	def create_metadata(job)
  		
- 	
 
  		#get file ids
- 		file_ids = get_files_for_folder(job)
+ 		file_ids = get_files(job)
  		
 
  		#add keys to a hash if they exist
