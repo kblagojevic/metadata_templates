@@ -21,11 +21,6 @@ class JobManagerController < ApplicationController
 		job["value_3"] = params[:value_3]
 		job["value_4"] = params[:value_4]
 
-		
-		#create a client session for the box api and store in dictionary
-		client = create_ruby_client(job["token"])
-		job["client"] = client
-
 		#create metadata using dictionary
 		create_metadata(job)
 
@@ -35,27 +30,12 @@ class JobManagerController < ApplicationController
 
 	def get_files(job)
 
-		#client = job["client"]
-		#box_token = "Bearer #{job["token"]}"
+		#get the folder_id you want to iterate
 		folder_id = job["folder_id"]
 
-		#response = HTTParty.get("https://api.box.com/2.0/folders/#{folder_id}/items",
- 		#			:headers => { "Authorization" => box_token})
-
-		#get all files within the specified folder
-		#items = response.parsed_response["entries"]
-		#file_ids = Array.new
-		#items.each do |item|
-		#	if item["type"] == "file"
-		#		file_ids.push(item["id"])
-		#	end
-		#end	
-
+		#get the files from teh folder_id
 		file_ids = Array.new
 		file_ids =get_files_for_folder(job, folder_id)
-
-		#files = get_files_for_folder(job, folder_id)
-
 
 		return file_ids
 
@@ -65,21 +45,25 @@ class JobManagerController < ApplicationController
 
 	def get_files_for_folder(job, folder_id)
 
-		client = job["client"]
-		box_token = "Bearer #{job["token"]}"
+		#set up 
 
+
+		box_token = "Bearer #{job["token"]}"
 
 		response = HTTParty.get("https://api.box.com/2.0/folders/#{folder_id}/items",
  					:headers => { "Authorization" => box_token})
 
-		#get all files within the specified folder
+		#get all files within the specified folder. 
 		items = response.parsed_response["entries"]
 		file_ids = Array.new
 		items.each do |item|
+			
+			#if item is a file, add it to the array
 			if item["type"] == "file"
 				file_ids.push(item["id"])
 			end
 
+			#if item is a folder, call this same method to iterate through a folder
 			if item["type"] == "folder"
 				nested_file_ids = Array.new
 				nested_file_ids = get_files_for_folder(job, item["id"])
@@ -137,8 +121,7 @@ class JobManagerController < ApplicationController
  			end
  		end
 
- 		#initialize box headers
- 		client = job["client"]
+ 		#initialize box headers\
  		box_token = "Bearer #{job["token"]}"
 
  		###add metadata keys for each file
