@@ -13080,3 +13080,167 @@ Started GET "/assets/application.css" for 127.0.0.1 at 2014-04-09 21:36:59 -0700
 
 
 Started GET "/assets/application.js" for 127.0.0.1 at 2014-04-09 21:36:59 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 18:12:12 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 30ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-04-15 18:12:13 -0700
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-04-15 18:12:13 -0700
+
+
+Started POST "/new" for 127.0.0.1 at 2014-04-15 18:13:34 -0700
+Processing by JobManagerController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GERv/cmF4FV6TXi77Y27f/2RU9xW1nNM0o0W/AIs7Yg=", "token"=>"OORMAw0x37dMaVdmmnWScs6QZLcRYr9b", "folder_id"=>"1851665763", "key_1"=>"Name", "value_1"=>"", "key_2"=>"Expired Date", "value_2"=>"", "key_3"=>"", "value_3"=>"", "key_4"=>"", "value_4"=>"", "commit"=>"Add Metadata!"}
+Redirected to http://localhost:3000/success
+Completed 302 Found in 2611ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/success" for 127.0.0.1 at 2014-04-15 18:13:37 -0700
+Processing by MetadataManagerController#success as HTML
+  Rendered metadata_manager/success.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/success" for 127.0.0.1 at 2014-04-15 18:15:50 -0700
+Processing by MetadataManagerController#success as HTML
+  Rendered metadata_manager/success.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-04-15 18:15:50 -0700
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-04-15 18:15:50 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 18:15:51 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 18:15:55 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/success" for 127.0.0.1 at 2014-04-15 18:16:03 -0700
+Processing by MetadataManagerController#success as HTML
+  Rendered metadata_manager/success.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-04-15 18:16:03 -0700
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-04-15 18:16:03 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 18:16:04 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 18:16:17 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/success" for 127.0.0.1 at 2014-04-15 18:17:45 -0700
+Processing by MetadataManagerController#success as HTML
+  Rendered metadata_manager/success.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-04-15 18:17:45 -0700
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-04-15 18:17:45 -0700
+
+
+Started GET "/success" for 127.0.0.1 at 2014-04-15 18:17:56 -0700
+Processing by MetadataManagerController#success as HTML
+  Rendered metadata_manager/success.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-04-15 18:17:56 -0700
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-04-15 18:17:56 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 18:18:05 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 18:22:43 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 22ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-04-15 18:22:43 -0700
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-04-15 18:22:43 -0700
+
+
+Started POST "/new" for 127.0.0.1 at 2014-04-15 18:23:17 -0700
+Processing by JobManagerController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GERv/cmF4FV6TXi77Y27f/2RU9xW1nNM0o0W/AIs7Yg=", "token"=>"OORMAw0x37dMaVdmmnWScs6QZLcRYr9b", "folder_id"=>"1851665763", "key_1"=>"Spawn", "value_1"=>"is awesome! ", "key_2"=>"gem", "value_2"=>"value", "key_3"=>"", "value_3"=>"", "key_4"=>"", "value_4"=>"", "commit"=>"Add Metadata!"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `new' for Spawn:Module):
+  app/controllers/job_manager_controller.rb:36:in `new'
+
+
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-15 18:25:05 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 23ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-04-15 18:25:05 -0700
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-04-15 18:25:05 -0700
+
+
+Started POST "/new" for 127.0.0.1 at 2014-04-15 18:25:21 -0700
+Processing by JobManagerController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GERv/cmF4FV6TXi77Y27f/2RU9xW1nNM0o0W/AIs7Yg=", "token"=>"OORMAw0x37dMaVdmmnWScs6QZLcRYr9b", "folder_id"=>"1851665763", "key_1"=>"spawn", "value_1"=>"works", "key_2"=>"", "value_2"=>"", "key_3"=>"", "value_3"=>"", "key_4"=>"", "value_4"=>"", "commit"=>"Add Metadata!"}
+spawn> parent PID = 6364
+spawn> child PID = 6367
+Redirected to http://localhost:3000/success
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/success" for 127.0.0.1 at 2014-04-15 18:25:21 -0700
+Processing by MetadataManagerController#success as HTML
+  Rendered metadata_manager/success.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-04-15 18:25:21 -0700
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-04-15 18:25:21 -0700
+spawn> child[6367] took 11.856166 sec

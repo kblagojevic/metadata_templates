@@ -33,7 +33,9 @@ class JobManagerController < ApplicationController
 		end 
 
 		#create metadata using dictionary
-		create_metadata(job)
+		Spawn.new do 
+			create_metadata(job)
+		end
 
 		redirect_to success_path
 

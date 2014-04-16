@@ -28,8 +28,7 @@ gem 'spring',        group: :development
 
 gem 'ruby-box'
 gem 'httparty'
-gem 'spawn'
-
+gem 'spawn-block'
 gem 'bootstrap-sass', '2.3.2'
 
 gem 'pg', group: :production
