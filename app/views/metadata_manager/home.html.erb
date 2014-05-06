@@ -29,40 +29,28 @@
 			<%= text_field_tag :folder_id %>
 	
 
-		
 
-			<h4>Add keys and values</h4>
-			<%=label_tag :key_1 %>
-			<%= text_field_tag :key_1 %>
+			
 
-			<%=label_tag :default_value %>
-			<%= text_field_tag :value_1 %>
-		
-		
 
 
 
-			<%=label_tag :key_2 %>
-			<%= text_field_tag :key_2 %>
+			<h4>Add keys and values</h4>
 
-			<%=label_tag :default_value %>
-			<%= text_field_tag :value_2 %>
+			<% 8.times do |i| %>
+				<%=label_tag "key_#{i}" %>
+				<%=text_field_tag "key_#{i}" %>
+
+				<%= label_tag :default_value %>
+				<%=text_field_tag "value_#{i}" %>
 
 
-		
-			<%=label_tag :key_3 %>
-			<%= text_field_tag :key_3 %>
+			<% end %>
 
-			<%=label_tag :default_value %>
-			<%= text_field_tag :value_3 %>
-		
 
-		
-			<%=label_tag :key_4 %>
-			<%= text_field_tag :key_4 %>
 
-			<%=label_tag :default_value %>
-			<%= text_field_tag :value_4 %>
+
+
 		</div>
 
 		<div class="row">

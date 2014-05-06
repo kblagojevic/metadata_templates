@@ -13244,3 +13244,927 @@ Started GET "/assets/application.css" for 127.0.0.1 at 2014-04-15 18:25:21 -0700
 
 Started GET "/assets/application.js" for 127.0.0.1 at 2014-04-15 18:25:21 -0700
 spawn> child[6367] took 11.856166 sec
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 09:22:40 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 29ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-04-23 09:22:40 -0700
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-04-23 09:22:40 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-05 22:06:48 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 44ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-05-05 22:06:49 -0700
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-05-05 22:06:49 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-05 22:10:52 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-05-05 22:10:52 -0700
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-05-05 22:10:52 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-05 22:14:39 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (9.8ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined method `<=' for nil:NilClass):
+    37: 
+    38: 			<h4>Add keys and values</h4>
+    39: 
+    40: 			<% while @i <= @key_count %>
+    41: 				<%=label_tag "key_#{i}" %>
+    42: 				<%=text_field_tag "key_#{i}" %>
+    43: 			<% end %>
+  app/views/metadata_manager/home.html.erb:40:in `block in _app_views_metadata_manager_home_html_erb___3819523737785371984_2156957480'
+  app/views/metadata_manager/home.html.erb:17:in `_app_views_metadata_manager_home_html_erb___3819523737785371984_2156957480'
+
+
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-05 22:14:58 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `<=' for nil:NilClass):
+    37: 
+    38: 			<h4>Add keys and values</h4>
+    39: 
+    40: 			<% while @i <= @key_count %>
+    41: 				<%=label_tag "key_#{i}" %>
+    42: 				<%=text_field_tag "key_#{i}" %>
+    43: 			<% end %>
+  app/views/metadata_manager/home.html.erb:40:in `block in _app_views_metadata_manager_home_html_erb___3819523737785371984_2156957480'
+  app/views/metadata_manager/home.html.erb:17:in `_app_views_metadata_manager_home_html_erb___3819523737785371984_2156957480'
+
+
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-05 22:15:00 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `<=' for nil:NilClass):
+    37: 
+    38: 			<h4>Add keys and values</h4>
+    39: 
+    40: 			<% while @i <= @key_count %>
+    41: 				<%=label_tag "key_#{i}" %>
+    42: 				<%=text_field_tag "key_#{i}" %>
+    43: 			<% end %>
+  app/views/metadata_manager/home.html.erb:40:in `block in _app_views_metadata_manager_home_html_erb___3819523737785371984_2156957480'
+  app/views/metadata_manager/home.html.erb:17:in `_app_views_metadata_manager_home_html_erb___3819523737785371984_2156957480'
+
+
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-05 22:15:26 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 5ms
+
+SyntaxError (/Users/tblosser/Documents/ruby_projects/metadata_templates/app/views/metadata_manager/home.html.erb:40: syntax error, unexpected ')', expecting keyword_do_cond or ';' or '\n'
+...pend=( while @i <= @key_count );@output_buffer.safe_append='
+...                               ^
+/Users/tblosser/Documents/ruby_projects/metadata_templates/app/views/metadata_manager/home.html.erb:43: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;			 end 
+         			    ^
+/Users/tblosser/Documents/ruby_projects/metadata_templates/app/views/metadata_manager/home.html.erb:84: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;			 end 
+         			    ^
+/Users/tblosser/Documents/ruby_projects/metadata_templates/app/views/metadata_manager/home.html.erb:93: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/tblosser/Documents/ruby_projects/metadata_templates/app/views/metadata_manager/home.html.erb:95: syntax error, unexpected keyword_end, expecting ')'):
+  actionview (4.1.0.rc2) lib/action_view/template.rb:297:in `module_eval'
+  actionview (4.1.0.rc2) lib/action_view/template.rb:297:in `compile'
+  actionview (4.1.0.rc2) lib/action_view/template.rb:245:in `block (2 levels) in compile!'
+  activesupport (4.1.0.rc2) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.0.rc2) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.0.rc2) lib/action_view/template.rb:244:in `block in compile!'
+  actionview (4.1.0.rc2) lib/action_view/template.rb:232:in `synchronize'
+  actionview (4.1.0.rc2) lib/action_view/template.rb:232:in `compile!'
+  actionview (4.1.0.rc2) lib/action_view/template.rb:144:in `block in render'
+  activesupport (4.1.0.rc2) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.0.rc2) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.0.rc2) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.0.rc2) lib/action_view/renderer/template_renderer.rb:55:in `block (2 levels) in render_template'
+  actionview (4.1.0.rc2) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.1.0.rc2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0.rc2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0.rc2) lib/active_support/notifications.rb:159:in `instrument'
+  actionview (4.1.0.rc2) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionview (4.1.0.rc2) lib/action_view/renderer/template_renderer.rb:54:in `block in render_template'
+  actionview (4.1.0.rc2) lib/action_view/renderer/template_renderer.rb:62:in `render_with_layout'
+  actionview (4.1.0.rc2) lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+  actionview (4.1.0.rc2) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionview (4.1.0.rc2) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.0.rc2) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.0.rc2) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.0.rc2) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.0.rc2) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.0.rc2) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.1.0.rc2) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.0.rc2) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.0.rc2) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.0.rc2) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.0.rc2) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.0.rc2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0.rc2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0.rc2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.0.rc2) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.0.rc2) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.0.rc2) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0.rc2) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0.rc2) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0.rc2) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0.rc2) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0.rc2) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0.rc2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0.rc2) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0.rc2) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0.rc2) lib/rails/engine.rb:515:in `call'
+  railties (4.1.0.rc2) lib/rails/application.rb:142:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-05 22:17:16 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (6.4ms)
+Completed 500 Internal Server Error in 10ms
+
+SyntaxError (/Users/tblosser/Documents/ruby_projects/metadata_templates/app/views/metadata_manager/home.html.erb:40: syntax error, unexpected keyword_do, expecting keyword_end
+'.freeze;			 @keycount do |i| 
+         			             ^
+/Users/tblosser/Documents/ruby_projects/metadata_templates/app/views/metadata_manager/home.html.erb:93: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  actionview (4.1.0.rc2) lib/action_view/template.rb:297:in `module_eval'
+  actionview (4.1.0.rc2) lib/action_view/template.rb:297:in `compile'
+  actionview (4.1.0.rc2) lib/action_view/template.rb:245:in `block (2 levels) in compile!'
+  activesupport (4.1.0.rc2) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.0.rc2) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.0.rc2) lib/action_view/template.rb:244:in `block in compile!'
+  actionview (4.1.0.rc2) lib/action_view/template.rb:232:in `synchronize'
+  actionview (4.1.0.rc2) lib/action_view/template.rb:232:in `compile!'
+  actionview (4.1.0.rc2) lib/action_view/template.rb:144:in `block in render'
+  activesupport (4.1.0.rc2) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.0.rc2) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.0.rc2) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.0.rc2) lib/action_view/renderer/template_renderer.rb:55:in `block (2 levels) in render_template'
+  actionview (4.1.0.rc2) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.1.0.rc2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0.rc2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0.rc2) lib/active_support/notifications.rb:159:in `instrument'
+  actionview (4.1.0.rc2) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionview (4.1.0.rc2) lib/action_view/renderer/template_renderer.rb:54:in `block in render_template'
+  actionview (4.1.0.rc2) lib/action_view/renderer/template_renderer.rb:62:in `render_with_layout'
+  actionview (4.1.0.rc2) lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+  actionview (4.1.0.rc2) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionview (4.1.0.rc2) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.0.rc2) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.0.rc2) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.0.rc2) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.0.rc2) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.0.rc2) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.1.0.rc2) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.0.rc2) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.0.rc2) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.0.rc2) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.0.rc2) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.0.rc2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0.rc2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0.rc2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.0.rc2) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.0.rc2) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.0.rc2) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0.rc2) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0.rc2) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0.rc2) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0.rc2) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0.rc2) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0.rc2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0.rc2) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0.rc2) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0.rc2) lib/rails/engine.rb:515:in `call'
+  railties (4.1.0.rc2) lib/rails/application.rb:142:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-05 22:17:52 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (3.5ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (undefined method `times' for nil:NilClass):
+    37: 
+    38: 			<h4>Add keys and values</h4>
+    39: 
+    40: 			<% @keycount.times do |i| %>
+    41: 				<%=label_tag "key_#{@i}" %>
+    42: 				<%=text_field_tag "key_#{@i}" %>
+    43: 			<% end %>
+  app/views/metadata_manager/home.html.erb:40:in `block in _app_views_metadata_manager_home_html_erb___3819523737785371984_2174071760'
+  app/views/metadata_manager/home.html.erb:17:in `_app_views_metadata_manager_home_html_erb___3819523737785371984_2174071760'
+
+
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-05 22:18:04 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-05-05 22:18:04 -0700
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-05-05 22:18:04 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-05 22:18:58 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (5.2ms)
+Completed 500 Internal Server Error in 29ms
+
+ActionView::Template::Error (undefined method `times' for nil:NilClass):
+    37: 
+    38: 			<h4>Add keys and values</h4>
+    39: 
+    40: 			<% @key.times do |i| %>
+    41: 				<%=label_tag "key_#{@i}" %>
+    42: 				<%=text_field_tag "key_#{@i}" %>
+    43: 			<% end %>
+  app/views/metadata_manager/home.html.erb:40:in `block in _app_views_metadata_manager_home_html_erb___3573677568396844124_2202839980'
+  app/views/metadata_manager/home.html.erb:17:in `_app_views_metadata_manager_home_html_erb___3573677568396844124_2202839980'
+
+
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-05 22:20:28 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-05-05 22:20:28 -0700
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-05-05 22:20:29 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-05 22:20:46 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (/Users/tblosser/Documents/ruby_projects/metadata_templates/app/views/metadata_manager/home.html.erb:41: syntax error, unexpected '{', expecting ')'
+...buffer.append=(label_tag :key_{@i} );@output_buffer.safe_app...
+...                               ^
+/Users/tblosser/Documents/ruby_projects/metadata_templates/app/views/metadata_manager/home.html.erb:45: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;			 end 
+         			    ^
+/Users/tblosser/Documents/ruby_projects/metadata_templates/app/views/metadata_manager/home.html.erb:86: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;			 end 
+         			    ^
+/Users/tblosser/Documents/ruby_projects/metadata_templates/app/views/metadata_manager/home.html.erb:95: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/tblosser/Documents/ruby_projects/metadata_templates/app/views/metadata_manager/home.html.erb:97: syntax error, unexpected keyword_end, expecting ')'):
+  actionview (4.1.0.rc2) lib/action_view/template.rb:297:in `module_eval'
+  actionview (4.1.0.rc2) lib/action_view/template.rb:297:in `compile'
+  actionview (4.1.0.rc2) lib/action_view/template.rb:245:in `block (2 levels) in compile!'
+  activesupport (4.1.0.rc2) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.0.rc2) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.0.rc2) lib/action_view/template.rb:244:in `block in compile!'
+  actionview (4.1.0.rc2) lib/action_view/template.rb:232:in `synchronize'
+  actionview (4.1.0.rc2) lib/action_view/template.rb:232:in `compile!'
+  actionview (4.1.0.rc2) lib/action_view/template.rb:144:in `block in render'
+  activesupport (4.1.0.rc2) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.0.rc2) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.0.rc2) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.0.rc2) lib/action_view/renderer/template_renderer.rb:55:in `block (2 levels) in render_template'
+  actionview (4.1.0.rc2) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.1.0.rc2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0.rc2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0.rc2) lib/active_support/notifications.rb:159:in `instrument'
+  actionview (4.1.0.rc2) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionview (4.1.0.rc2) lib/action_view/renderer/template_renderer.rb:54:in `block in render_template'
+  actionview (4.1.0.rc2) lib/action_view/renderer/template_renderer.rb:62:in `render_with_layout'
+  actionview (4.1.0.rc2) lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+  actionview (4.1.0.rc2) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionview (4.1.0.rc2) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.0.rc2) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.0.rc2) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.0.rc2) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.0.rc2) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.0.rc2) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.1.0.rc2) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.0.rc2) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.0.rc2) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.0.rc2) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.0.rc2) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.0.rc2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0.rc2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0.rc2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.0.rc2) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.0.rc2) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.0.rc2) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0.rc2) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0.rc2) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0.rc2) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0.rc2) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0.rc2) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0.rc2) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0.rc2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0.rc2) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0.rc2) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0.rc2) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0.rc2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0.rc2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0.rc2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0.rc2) lib/rails/engine.rb:515:in `call'
+  railties (4.1.0.rc2) lib/rails/application.rb:142:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-05 22:21:04 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-05-05 22:21:04 -0700
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-05-05 22:21:04 -0700
+
+
+Started POST "/new" for 127.0.0.1 at 2014-05-05 22:21:47 -0700
+Processing by JobManagerController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IRQ27MY/RqzANgHXGfAuchdg23gfLHJpTcsqrwbVrAo=", "token"=>"", "folder_id"=>"", "key_0"=>"test key1", "key_1"=>"", "key_2"=>"", "key_3"=>"", "key_4"=>"", "key_5"=>"", "key_6"=>"", "key_7"=>"", "value_1"=>"", "value_2"=>"", "value_3"=>"", "value_4"=>"", "commit"=>"Add Metadata!"}
+spawn> parent PID = 55153
+spawn> child PID = 55165
+Redirected to http://localhost:3000/success
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/success" for 127.0.0.1 at 2014-05-05 22:21:47 -0700
+Processing by MetadataManagerController#success as HTML
+  Rendered metadata_manager/success.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-05-05 22:21:47 -0700
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-05-05 22:21:47 -0700
+spawn> Exception in child[55165] - NoMethodError: undefined method `[]' for nil:NilClass
+spawn> /Users/tblosser/Documents/ruby_projects/metadata_templates/app/controllers/job_manager_controller.rb:77:in `get_files_for_folder'
+/Users/tblosser/Documents/ruby_projects/metadata_templates/app/controllers/job_manager_controller.rb:58:in `get_files'
+/Users/tblosser/Documents/ruby_projects/metadata_templates/app/controllers/job_manager_controller.rb:103:in `create_metadata'
+/Users/tblosser/Documents/ruby_projects/metadata_templates/app/controllers/job_manager_controller.rb:44:in `block in new'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/spawn-block-2.0/lib/spawn.rb:113:in `block in initialize'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/spawn-block-2.0/lib/spawn.rb:164:in `block in fork_it'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/spawn-block-2.0/lib/spawn.rb:140:in `fork'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/spawn-block-2.0/lib/spawn.rb:140:in `fork_it'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/spawn-block-2.0/lib/spawn.rb:113:in `initialize'
+/Users/tblosser/Documents/ruby_projects/metadata_templates/app/controllers/job_manager_controller.rb:43:in `new'
+/Users/tblosser/Documents/ruby_projects/metadata_templates/app/controllers/job_manager_controller.rb:43:in `new'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/abstract_controller/base.rb:189:in `process_action'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/callbacks.rb:113:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/callbacks.rb:113:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/callbacks.rb:229:in `block in halting'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/callbacks.rb:229:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/callbacks.rb:229:in `block in halting'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/callbacks.rb:166:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/callbacks.rb:166:in `block in halting'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/callbacks.rb:166:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/callbacks.rb:166:in `block in halting'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/callbacks.rb:166:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/callbacks.rb:166:in `block in halting'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/callbacks.rb:86:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/callbacks.rb:86:in `run_callbacks'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/abstract_controller/callbacks.rb:19:in `process_action'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/notifications.rb:159:in `instrument'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activerecord-4.1.0.rc2/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/abstract_controller/base.rb:136:in `process'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionview-4.1.0.rc2/lib/action_view/rendering.rb:30:in `process'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_controller/metal.rb:195:in `dispatch'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_controller/metal.rb:231:in `block in action'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/journey/router.rb:59:in `each'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/journey/router.rb:59:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/routing/route_set.rb:676:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1@global/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1@global/gems/rack-1.5.2/lib/rack/conditionalget.rb:35:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1@global/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/flash.rb:254:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1@global/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/Users/tblosser/.rvm/gems/ruby-2.1.1@global/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/cookies.rb:560:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activerecord-4.1.0.rc2/lib/active_record/query_cache.rb:36:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activerecord-4.1.0.rc2/lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activerecord-4.1.0.rc2/lib/active_record/migration.rb:380:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/callbacks.rb:82:in `run_callbacks'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/reloader.rb:73:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/railties-4.1.0.rc2/lib/rails/rack/logger.rb:38:in `call_app'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/railties-4.1.0.rc2/lib/rails/rack/logger.rb:20:in `block in call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/tagged_logging.rb:26:in `tagged'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/tagged_logging.rb:68:in `tagged'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/railties-4.1.0.rc2/lib/rails/rack/logger.rb:20:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1@global/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1@global/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1@global/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/static.rb:64:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1@global/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/railties-4.1.0.rc2/lib/rails/engine.rb:515:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/railties-4.1.0.rc2/lib/rails/application.rb:142:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1@global/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1@global/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1@global/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+/Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+/Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+/Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+spawn> child[55165] took 0.360696 sec
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-05 22:22:51 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-05-05 22:22:51 -0700
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-05-05 22:22:51 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-05 22:23:08 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-05-05 22:23:08 -0700
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-05-05 22:23:08 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-05 22:23:10 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-05-05 22:23:10 -0700
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-05-05 22:23:10 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-05 22:23:59 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-05-05 22:24:00 -0700
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-05-05 22:24:00 -0700
+
+
+Started POST "/new" for 127.0.0.1 at 2014-05-05 22:24:14 -0700
+Processing by JobManagerController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IRQ27MY/RqzANgHXGfAuchdg23gfLHJpTcsqrwbVrAo=", "token"=>"", "folder_id"=>"", "key_0"=>"First Key", "value_0"=>"First Value", "key_1"=>"Second Key", "value_1"=>"Second Value", "key_2"=>"", "value_2"=>"", "key_3"=>"", "value_3"=>"", "key_4"=>"", "value_4"=>"", "key_5"=>"", "value_5"=>"", "key_6"=>"", "value_6"=>"", "key_7"=>"", "value_7"=>"", "commit"=>"Add Metadata!"}
+spawn> parent PID = 55153
+spawn> child PID = 55222
+Redirected to http://localhost:3000/success
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/success" for 127.0.0.1 at 2014-05-05 22:24:14 -0700
+Processing by MetadataManagerController#success as HTML
+  Rendered metadata_manager/success.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-05-05 22:24:14 -0700
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-05-05 22:24:14 -0700
+spawn> Exception in child[55222] - NoMethodError: undefined method `[]' for nil:NilClass
+spawn> /Users/tblosser/Documents/ruby_projects/metadata_templates/app/controllers/job_manager_controller.rb:74:in `get_files_for_folder'
+/Users/tblosser/Documents/ruby_projects/metadata_templates/app/controllers/job_manager_controller.rb:55:in `get_files'
+/Users/tblosser/Documents/ruby_projects/metadata_templates/app/controllers/job_manager_controller.rb:100:in `create_metadata'
+/Users/tblosser/Documents/ruby_projects/metadata_templates/app/controllers/job_manager_controller.rb:41:in `block in new'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/spawn-block-2.0/lib/spawn.rb:113:in `block in initialize'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/spawn-block-2.0/lib/spawn.rb:164:in `block in fork_it'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/spawn-block-2.0/lib/spawn.rb:140:in `fork'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/spawn-block-2.0/lib/spawn.rb:140:in `fork_it'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/spawn-block-2.0/lib/spawn.rb:113:in `initialize'
+/Users/tblosser/Documents/ruby_projects/metadata_templates/app/controllers/job_manager_controller.rb:40:in `new'
+/Users/tblosser/Documents/ruby_projects/metadata_templates/app/controllers/job_manager_controller.rb:40:in `new'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/abstract_controller/base.rb:189:in `process_action'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/callbacks.rb:113:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/callbacks.rb:113:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/callbacks.rb:229:in `block in halting'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/callbacks.rb:229:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/callbacks.rb:229:in `block in halting'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/callbacks.rb:166:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/callbacks.rb:166:in `block in halting'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/callbacks.rb:166:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/callbacks.rb:166:in `block in halting'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/callbacks.rb:166:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/callbacks.rb:166:in `block in halting'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/callbacks.rb:86:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/callbacks.rb:86:in `run_callbacks'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/abstract_controller/callbacks.rb:19:in `process_action'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/notifications.rb:159:in `instrument'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activerecord-4.1.0.rc2/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/abstract_controller/base.rb:136:in `process'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionview-4.1.0.rc2/lib/action_view/rendering.rb:30:in `process'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_controller/metal.rb:195:in `dispatch'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_controller/metal.rb:231:in `block in action'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/journey/router.rb:59:in `each'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/journey/router.rb:59:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/routing/route_set.rb:676:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1@global/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1@global/gems/rack-1.5.2/lib/rack/conditionalget.rb:35:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1@global/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/flash.rb:254:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1@global/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/Users/tblosser/.rvm/gems/ruby-2.1.1@global/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/cookies.rb:560:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activerecord-4.1.0.rc2/lib/active_record/query_cache.rb:36:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activerecord-4.1.0.rc2/lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activerecord-4.1.0.rc2/lib/active_record/migration.rb:380:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/callbacks.rb:82:in `run_callbacks'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/reloader.rb:73:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/railties-4.1.0.rc2/lib/rails/rack/logger.rb:38:in `call_app'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/railties-4.1.0.rc2/lib/rails/rack/logger.rb:20:in `block in call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/tagged_logging.rb:26:in `tagged'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/tagged_logging.rb:68:in `tagged'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/railties-4.1.0.rc2/lib/rails/rack/logger.rb:20:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1@global/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1@global/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0.rc2/lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1@global/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0.rc2/lib/action_dispatch/middleware/static.rb:64:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1@global/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/railties-4.1.0.rc2/lib/rails/engine.rb:515:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1/gems/railties-4.1.0.rc2/lib/rails/application.rb:142:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1@global/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1@global/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+/Users/tblosser/.rvm/gems/ruby-2.1.1@global/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+/Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+/Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+/Users/tblosser/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+spawn> child[55222] took 0.764473 sec
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-05 22:24:40 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new" for 127.0.0.1 at 2014-05-05 22:25:35 -0700
+Processing by JobManagerController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IRQ27MY/RqzANgHXGfAuchdg23gfLHJpTcsqrwbVrAo=", "token"=>"g64uy4Leov3xHhNNRqyJDWTatxQansju", "folder_id"=>"768511522", "key_0"=>"Test Key", "value_0"=>"Test Value", "key_1"=>"BOB", "value_1"=>"BLOSSER", "key_2"=>"Blank Key", "value_2"=>"", "key_3"=>"", "value_3"=>"", "key_4"=>"", "value_4"=>"", "key_5"=>"", "value_5"=>"", "key_6"=>"", "value_6"=>"", "key_7"=>"", "value_7"=>"", "commit"=>"Add Metadata!"}
+spawn> parent PID = 55153
+spawn> child PID = 55226
+Redirected to http://localhost:3000/success
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/success" for 127.0.0.1 at 2014-05-05 22:25:35 -0700
+Processing by MetadataManagerController#success as HTML
+  Rendered metadata_manager/success.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 7ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-05-05 22:25:35 -0700
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-05-05 22:25:35 -0700
+spawn> child[55226] took 3.957741 sec
+
+
+Started POST "/new" for 127.0.0.1 at 2014-05-05 22:26:31 -0700
+Processing by JobManagerController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IRQ27MY/RqzANgHXGfAuchdg23gfLHJpTcsqrwbVrAo=", "token"=>"g64uy4Leov3xHhNNRqyJDWTatxQansju", "folder_id"=>"768511522", "key_0"=>"First Key 0", "value_0"=>"First Value 0", "key_1"=>"First Key 1", "value_1"=>"First Value 1", "key_2"=>"", "value_2"=>"", "key_3"=>"", "value_3"=>"", "key_4"=>"", "value_4"=>"", "key_5"=>"", "value_5"=>"", "key_6"=>"", "value_6"=>"", "key_7"=>"", "value_7"=>"", "commit"=>"Add Metadata!"}
+spawn> parent PID = 55153
+Redirected to http://localhost:3000/success
+spawn> child PID = 55231
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/success" for 127.0.0.1 at 2014-05-05 22:26:31 -0700
+Processing by MetadataManagerController#success as HTML
+  Rendered metadata_manager/success.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-05-05 22:26:31 -0700
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-05-05 22:26:31 -0700
+spawn> child[55231] took 4.272233 sec
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-05 22:26:49 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms)

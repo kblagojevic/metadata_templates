@@ -3,11 +3,15 @@ require 'httparty'
 require 'spawn'
 
 #amount of keys allowed per submission
-$key_count = 4
+$key_count = 10
 
 
 class JobManagerController < ApplicationController
 
+
+	def home
+
+	end
 
 	def new
 
@@ -20,7 +24,7 @@ class JobManagerController < ApplicationController
 		job["folder_id"] = params[:folder_id]
 
 		#keys and values added to the job dictionary
-		i = 1
+		i = 0
 		
 		while i <= $key_count	
 
@@ -99,7 +103,7 @@ class JobManagerController < ApplicationController
  		#add keys to a hash if they exist
  		keys = Hash.new
 
- 		i=1
+ 		i=0
  		while i <= $key_count
 	 		#if key exists, add it to a string
 	 		if !job["key_#{i}"].blank?
