@@ -67,7 +67,7 @@ class JobManagerController < ApplicationController
 
 		box_token = "Bearer #{job["token"]}"
 
-		response = HTTParty.get("https://api.box.com/2.0/folders/#{folder_id}/items",
+		response = HTTParty.get("https://api.box.com/2.0/folders/#{folder_id}/items?limit=1000",
  					:headers => { "Authorization" => box_token})
 
 		#get all files within the specified folder. 
