@@ -127,24 +127,29 @@ class JobManagerController < ApplicationController
 
  		#add metadata keys for each file
  		file_ids.each do |f| 
- 			response = HTTParty.post("https://api.box.com/2.0/files/#{f}/metadata/properties",
- 					:headers => { "Authorization" => box_token, "Content-Type" => "application/json"},
- 					:body => keys.to_json)
- 			
- 			#if the properties object exists, perform an update. This will only be additive; if the keys exist
- 			#already, it will not allow them to be added
- 			if response.code == 409
 
- 				patch = Array.new
- 				keys.each do |key,value|
- 					patch.push({ 'op' => 'add', 'path' => "/#{key}", 'value' => "#{value}"})
- 				end
- 				json_patch = patch.to_json
+ 			#create thread of each file
+ 			Spawn.new do 
+ 				logger.debug "Spawning on file id #{f}"
+	 			response = HTTParty.post("https://api.box.com/2.0/files/#{f}/metadata/properties",
+	 					:headers => { "Authorization" => box_token, "Content-Type" => "application/json"},
+	 					:body => keys.to_json)
+	 			
+	 			#if the properties object exists, perform an update. This will only be additive; if the keys exist
+	 			#already, it will not allow them to be added
+	 			if response.code == 409
 
- 				response = HTTParty.put("https://api.box.com/2.0/files/#{f}/metadata/properties",
- 					:headers => { "Authorization" => box_token, "Content-Type" => "application/json-patch+json"},
- 					:body => json_patch)
- 			end
+	 				patch = Array.new
+	 				keys.each do |key,value|
+	 					patch.push({ 'op' => 'add', 'path' => "/#{key}", 'value' => "#{value}"})
+	 				end
+	 				json_patch = patch.to_json
+
+	 				response = HTTParty.put("https://api.box.com/2.0/files/#{f}/metadata/properties",
+	 					:headers => { "Authorization" => box_token, "Content-Type" => "application/json-patch+json"},
+	 					:body => json_patch)
+	 			end
+	 		end
 
  		end
 
