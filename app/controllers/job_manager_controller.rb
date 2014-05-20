@@ -139,12 +139,28 @@ class JobManagerController < ApplicationController
 	 			#already, it will not allow them to be added
 	 			if response.code == 409
 
+	 				#get existing values first so you know what NOT to overwrite
+	 				response = HTTParty.get("https://api.box.com/2.0/files/#{f}/metadata/properties",
+	 					:headers => { "Authorization" => box_token, "Content-Type" => "application/json"})
+	 				parsed_response = JSON.parse(response.body)
+	 				
+	 				#add existing keys to an array to check for duplicates
+	 				existing_keys = Array.new
+	 				parsed_response.each do |key,value|
+	 					existing_keys.push(key)
+					end
+					logger.debug "existing keys are #{existing_keys}"
+
+					#add only new keys to updated patch by checking against existing keys
 	 				patch = Array.new
 	 				keys.each do |key,value|
-	 					patch.push({ 'op' => 'add', 'path' => "/#{key}", 'value' => "#{value}"})
+	 					if !existing_keys.include? key
+	 							patch.push({ 'op' => 'add', 'path' => "/#{key}", 'value' => "#{value}"})
+	 					end
 	 				end
+	 				
+	 				#send array of patches as a metadata update
 	 				json_patch = patch.to_json
-
 	 				response = HTTParty.put("https://api.box.com/2.0/files/#{f}/metadata/properties",
 	 					:headers => { "Authorization" => box_token, "Content-Type" => "application/json-patch+json"},
 	 					:body => json_patch)
