@@ -14838,3 +14838,27 @@ Started GET "/assets/application.css" for 127.0.0.1 at 2014-05-21 22:25:32 -0700
 
 
 Started GET "/assets/application.js" for 127.0.0.1 at 2014-05-21 22:25:32 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 10:08:33 -0700
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 36ms (Views: 33.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-05-23 10:08:33 -0700
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-05-23 10:08:34 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-05 22:21:59 -0800
+Processing by MetadataManagerController#home as HTML
+  Rendered metadata_manager/home.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 23ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2015-02-05 22:21:59 -0800
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2015-02-05 22:22:00 -0800
