@@ -16,7 +16,8 @@ class JobManagerController < ApplicationController
 	def new
 		
 		#Add key items to dictionary. This holds everything needed for the job
-		#in memory
+		#in memory, It consists of the access token, folder id, template type, and 
+		#a hash of the keys and values
 		job = Hash.new
 
 		#add box access token and folder ID and the template name
@@ -52,8 +53,11 @@ class JobManagerController < ApplicationController
 
 			params[:attributes].each do |key, value|
 				attributes = Hash.new
-				attributes["#{key}"] = value
-				templateValues.push attributes
+				#make sure you only send keys that have an existing value
+				if !value.blank?
+					attributes["#{key}"] = value
+					templateValues.push attributes
+				end
 
 			end
 

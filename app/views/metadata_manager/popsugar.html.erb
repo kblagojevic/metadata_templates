@@ -27,29 +27,41 @@
 				<%=label_tag :folder_id %>
 				<%= text_field_tag :folder_id %>
 
-
-
-				
-
-	
-
 			<h4>Add keys and values</h4>
 
 
-				<%=label_tag "editorial" %>
+				<%=label_tag :editorial, "Editorial" %>
 				<%=text_field_tag "attributes[editorial]" %>
 	
-				<%=label_tag "Brand Name" %>
+				<%=label_tag :nameProduct, "Brand Name" %>
 				<%=text_field_tag "attributes[nameProduct]" %>
 
-				<%=label_tag "Image Type" %>
+				<%=label_tag :imageType, "Image Type" %>
 				<%=text_field_tag "attributes[imageType]" %>
 
-				<%=label_tag "color" %>
+				<%=label_tag :color, "Color" %>
 				<%=text_field_tag "attributes[color]" %> 
 
+				<%=label_tag :emotion, "Emotion" %>
+				<%=text_field_tag "attributes[emotion]" %> 
 
-		
+				<%=label_tag :seasonHoliday, "Season or Holiday" %>
+				<%=text_field_tag "attributes[seasonHoliday]" %> 
+
+				<%=label_tag :location, "Location" %>
+				<%=text_field_tag "attributes[location]" %> 
+
+				<%=label_tag :timeOfDay, "Time of Day" %>
+				<%=text_field_tag "attributes[timeOfDay]" %> 
+
+				<%=label_tag :dateShot, "Date Show" %>
+				<%=text_field_tag "attributes[dateShot]" %> 
+			
+				<%=label_tag :popsugarOrOriginalPhoto, "Rights Managed Photo ('yes' or 'no')" %>
+				<%=text_field_tag "attributes[popsugarOriginalPhoto]" %> 
+
+				<%=label_tag :author, "Author" %>
+				<%=text_field_tag "attributes[author]" %> 
 
 
 		</div>
