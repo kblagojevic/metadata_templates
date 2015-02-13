@@ -10,38 +10,46 @@
 </div>
 </br>
 
-
-
-		
-		
-		<%=form_tag new_path do %>
+<%=form_tag new_path do %>
 
 		<div class="row">
 
 		
 			<h4>Add Account Info <a href="https://box-token-generator.herokuapp.com/" target="_blank">(Get Access Token)</a> </h4>
-			<%=label_tag :access_token %> 
-			<%= text_field_tag :token %>
-		
+				
+			
 
-		
-			<%=label_tag :folder_id %>
-			<%= text_field_tag :folder_id %>
+				<%= hidden_field_tag :template, :popsugar %>
 
-				<%= hidden_field_tag :template, :properties %>
+				<%=label_tag :access_token %> 
+				<%= text_field_tag :token %>
+			
+				<%=label_tag :folder_id %>
+				<%= text_field_tag :folder_id %>
+
+
+
+				
+
 	
 
 			<h4>Add keys and values</h4>
 
-			<% 10.times do |i| %>
-				<%=label_tag "key_#{i}" %>
-				<%=text_field_tag "key_#{i}" %>
 
-				<%= label_tag :default_value %>
-				<%=text_field_tag "value_#{i}" %>
+				<%=label_tag "editorial" %>
+				<%=text_field_tag "attributes[editorial]" %>
+	
+				<%=label_tag "Brand Name" %>
+				<%=text_field_tag "attributes[nameProduct]" %>
+
+				<%=label_tag "Image Type" %>
+				<%=text_field_tag "attributes[imageType]" %>
+
+				<%=label_tag "color" %>
+				<%=text_field_tag "attributes[color]" %> 
 
 
-			<% end %>
+		
 
 
 		</div>
@@ -51,9 +59,3 @@
 			<%=submit_tag "Add Metadata!", class: "btn-bt-large btn-primary"%>
 			<% end %>
 		</div>
-
-	
-</div>
-	
-
-

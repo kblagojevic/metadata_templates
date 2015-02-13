@@ -5,6 +5,10 @@ Rails.application.routes.draw do
   post '/new', to: 'job_manager#new'
 
   get '/success', to: 'metadata_manager#success'
+
+  get '/popsugar', to: 'metadata_manager#popsugar'
+
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

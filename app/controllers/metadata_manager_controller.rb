@@ -8,5 +8,9 @@ class MetadataManagerController < ApplicationController
 
 	end
 
+	def popsugar
+
+	end
+
 
 end

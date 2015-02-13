@@ -14,31 +14,55 @@ class JobManagerController < ApplicationController
 	end
 
 	def new
-
-		puts "global variable is #{$key_count}"
-		#Add key items to dictionary
-		job = Hash.new
 		
-		#token and folder 
+		#Add key items to dictionary. This holds everything needed for the job
+		#in memory
+		job = Hash.new
+
+		#add box access token and folder ID and the template name
 		job["token"] = params[:token]
 		job["folder_id"] = params[:folder_id]
+		job["template"] = params[:template]
 
-		#keys and values added to the job dictionary
-		i = 0
-		
-		while i <= $key_count	
-
-			#add items from form to a dictionary
-			job["key_#{i}"] = params["key_#{i}"]
-			job["value_#{i}"] = params["value_#{i}"]
+		#if this is for the properties bucket, then run this method
+		if job["template"] == "properties"
+			#keys and values added to the job dictionary
+			i = 0
 			
-			i +=1
+			while i <= $key_count	
 
-		end 
+				#add items from form to a dictionary
+				job["key_#{i}"] = params["key_#{i}"]
+				job["value_#{i}"] = params["value_#{i}"]
+				
+				i +=1
 
-		#create metadata using dictionary
-		Spawn.new do 
+			end 
+
+			#create metadata using dictionary
+			Spawn.new do 
+				create_metadata(job)
+			end
+		#if template is not properties and is a custom template, 
+		#run different method 
+		else
+			#loop through each template attribute and store the values in a hash 
+			#arranged by attribute
+			templateValues = []
+
+			params[:attributes].each do |key, value|
+				attributes = Hash.new
+				attributes["#{key}"] = value
+				templateValues.push attributes
+
+			end
+
+			job["templateValues"] = templateValues
+
+			logger.debug "hash being sent is #{job.inspect}"
+
 			create_metadata(job)
+
 		end
 
 		redirect_to success_path
@@ -99,27 +123,61 @@ class JobManagerController < ApplicationController
  		#get file ids
  		file_ids = get_files(job)
  		
+ 		logger.debug "job in create metadata is #{job.inspect}"
 
- 		#add keys to a hash if they exist
- 		keys = Hash.new
+ 		#if template is properties, then you need to create a key:value hash
+ 		if job["template"] == "properties"
+ 		
+	 		#add keys to a hash if they exist
+	 		keys = Hash.new
 
- 		i=0
- 		while i <= $key_count
-	 		#if key exists, add it to a string
-	 		if !job["key_#{i}"].blank?
-	 			key_field = job["key_#{i}"]
+	 		i=0
+	 		while i <= $key_count
+		 		#if key exists, add it to a string
+		 		if !job["key_#{i}"].blank?
+		 			key_field = job["key_#{i}"]
 
-	 			#if the value is blank, add the key with a empty value
-	 			if job["value_#{i}"].blank?
-	 				keys["#{key_field}"] = ""
-				#if the value is not blank, add the value to the key
-				else
-					keys["#{key_field}"] = job["value_#{i}"]
+		 			#if the value is blank, add the key with a empty value
+		 			if job["value_#{i}"].blank?
+		 				keys["#{key_field}"] = ""
+					#if the value is not blank, add the value to the key
+					else
+						keys["#{key_field}"] = job["value_#{i}"]
+					end
 				end
+
+				i +=1
 			end
 
-			i +=1
+			#define the scope and type for properties type
+			scope = "global"
+			type = job["template"]
+		
+		#if not the properties type, then define custom scope and type and keys hash	
+		else
+			#add keys to a hash if they exist
+	 		keys = Hash.new
+
+	 		#add keys and values to new hash
+	 		job["templateValues"].each do |f|
+	 		 	hash = Hash.new
+	 		 	hash = f
+	 		 	hash.each do |key, value|
+					keys["#{key}"] = value
+				end
+	 		end
+
+
+	 		#keys["editorial"] = job["editorial"]
+	 		#keys["imageType"] = job["imageType"]
+	 		
+	 		#define the scope and type if it's not the properties type
+	 		scope = "enterprise"
+	 		type = job["template"]
+
 		end
+
+		logger.debug "keys are #{keys.to_json} and type is #{type}"
 
 
  		#initialize box headers
@@ -131,16 +189,20 @@ class JobManagerController < ApplicationController
  			#create thread of each file
  			Spawn.new do 
  				logger.debug "Spawning on file id #{f}"
-	 			response = HTTParty.post("https://api.box.com/2.0/files/#{f}/metadata/properties",
+ 			
+
+	 			response = HTTParty.post("https://api.box.com/2.0/files/#{f}/metadata/#{scope}/#{type}",
 	 					:headers => { "Authorization" => box_token, "Content-Type" => "application/json"},
 	 					:body => keys.to_json)
+
+	 			logger.debug "response from api is #{response.inspect}"
 	 			
 	 			#if the properties object exists, perform an update. This will only be additive; if the keys exist
 	 			#already, it will not allow them to be added
 	 			if response.code == 409
 
 	 				#get existing values first so you know what NOT to overwrite
-	 				response = HTTParty.get("https://api.box.com/2.0/files/#{f}/metadata/properties",
+	 				response = HTTParty.get("https://api.box.com/2.0/files/#{f}/metadata/#{scope}/#{type}",
 	 					:headers => { "Authorization" => box_token, "Content-Type" => "application/json"})
 	 				parsed_response = JSON.parse(response.body)
 	 				
@@ -153,15 +215,25 @@ class JobManagerController < ApplicationController
 
 					#add only new keys to updated patch by checking against existing keys
 	 				patch = Array.new
-	 				keys.each do |key,value|
-	 					if !existing_keys.include? key
-	 							patch.push({ 'op' => 'add', 'path' => "/#{key}", 'value' => "#{value}"})
-	 					end
-	 				end
+	 				
+	 				#only add additive keys if properties bucket
+	 				if type == "properties"	
+		 				keys.each do |key,value|
+		 					if !existing_keys.include? key
+		 							patch.push({ 'op' => 'add', 'path' => "/#{key}", 'value' => "#{value}"})
+		 					end
+		 				end
+		 			#additive keys don't matter for non properties
+		 			else 
+		 				keys.each do |key,value|
+		 					patch.push({ 'op' => 'add', 'path' => "/#{key}", 'value' => "#{value}"})
+		 				end
+		 			end
 	 				
 	 				#send array of patches as a metadata update
 	 				json_patch = patch.to_json
-	 				response = HTTParty.put("https://api.box.com/2.0/files/#{f}/metadata/properties",
+	 				logger.debug "json patch for update is #{json_patch}"
+	 				response = HTTParty.put("https://api.box.com/2.0/files/#{f}/metadata/#{scope}/#{type}",
 	 					:headers => { "Authorization" => box_token, "Content-Type" => "application/json-patch+json"},
 	 					:body => json_patch)
 	 			end
