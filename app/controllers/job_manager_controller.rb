@@ -8,7 +8,6 @@ $key_count = 10
 
 class JobManagerController < ApplicationController
 
-
 	def home
 
 	end
@@ -22,7 +21,7 @@ class JobManagerController < ApplicationController
 
 		#add box access token and folder ID and the template name
 		job["token"] = params[:token]
-		job["folder_id"] = params[:folder_id]
+		job["folder_ids"] = params[:folder_ids]
 		job["template"] = params[:template]
 
 		#if this is for the properties bucket, then run this method
@@ -74,13 +73,15 @@ class JobManagerController < ApplicationController
 	end
 
 	def get_files(job)
-
-		#get the folder_id you want to iterate
-		folder_id = job["folder_id"]
-
-		#get the files from teh folder_id
 		file_ids = Array.new
-		file_ids =get_files_for_folder(job, folder_id)
+    
+		#get the folder_ids you want to iterate
+		folder_ids = job["folder_ids"]
+  
+    folder_ids.split(',').each do |folder_id|
+  		#get the files from the folder_id
+  		file_ids += get_files_for_folder(job, folder_id)
+    end
 
 		return file_ids
 
@@ -91,8 +92,6 @@ class JobManagerController < ApplicationController
 	def get_files_for_folder(job, folder_id)
 
 		#set up 
-
-
 		box_token = "Bearer #{job["token"]}"
 
 		response = HTTParty.get("https://api.box.com/2.0/folders/#{folder_id}/items?limit=1000",
@@ -119,11 +118,20 @@ class JobManagerController < ApplicationController
 		return file_ids
 
 	end
-
+  
+  def format_value(key, value)
+    #strings are invalid values for date keys
+    if /date/ =~ key
+      puts value
+      value = DateTime.strptime(value, '%Y-%m-%d')
+      puts value
+    end
+    
+    return value
+  end
 
 	def create_metadata(job)
  		
-
  		#get file ids
  		file_ids = get_files(job)
  		
@@ -167,6 +175,7 @@ class JobManagerController < ApplicationController
 	 		 	hash = Hash.new
 	 		 	hash = f
 	 		 	hash.each do |key, value|
+          value = format_value(key, value)
 					keys["#{key}"] = value
 				end
 	 		end

@@ -1,6 +1,6 @@
 class MetadataManagerController < ApplicationController
 
-	def home
+	def properties
 
 	end
 
@@ -11,6 +11,5 @@ class MetadataManagerController < ApplicationController
 	def popsugar
 
 	end
-
 
 end

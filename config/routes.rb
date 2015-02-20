@@ -1,19 +1,18 @@
 Rails.application.routes.draw do
 
-  root 'metadata_manager#home'
+  root 'metadata_manager#popsugar'
 
   post '/new', to: 'job_manager#new'
 
   get '/success', to: 'metadata_manager#success'
 
-  get '/popsugar', to: 'metadata_manager#popsugar'
+  get '/custom-properties', to: 'metadata_manager#properties'
 
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
-  # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

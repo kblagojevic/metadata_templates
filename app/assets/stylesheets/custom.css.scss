@@ -1,8 +1,22 @@
 @import "bootstrap";
 
 h1 {
-	
-	color: #1e79bf;
+	color: #e06;
+}
 
-	
+.box {
+	color: #1e79bf;
+}
+
+.small {
+	font-size: .8em;
+}
+
+.span8,
+.row {
+	margin-left: 0;
+}
+
+.btn-primary {
+	margin: 20px 0 5px;
 }
