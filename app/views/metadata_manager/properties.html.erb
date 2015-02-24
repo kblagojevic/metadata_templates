@@ -4,7 +4,7 @@
 <div class="row">
 	<div class="span8">
 		<p>This metadata tool will add custom key and (optional) value pairs to all your files within a Box folder and its subfolders. Blank values will not override any existing values.</p>
-		<p>Wnat to use POPSUGAR keys instead of making your own? You can do that <a href="/<%= @token ? "?token=#{@token}" : '' %>">here</a>.</p>
+		<p>Wnat to use POPSUGAR keys instead of making your own? You can do that <a href="/">here</a>.</p>
 	</div>
 </div>
 </br>
@@ -15,10 +15,11 @@
 	
 		<%= hidden_field_tag :template, :properties %>
 
-		<%= label_tag :folder_ids, "Folders" %>
+		<%= label_tag :folder_ids, "Folder(s)" %>
 		<%= hidden_field_tag :folder_ids %>
 	
 		<div id="box-select" data-link-type="shared" data-multiselect="true" data-client-id="fhxg60c3x2msvv38d6gjwoimh7igeuzs"></div>
+		<div class="small">Warning: selecting files instead of folders will produce an error</div>
 		<br>
 
 		<h4>Add keys and values</h4>
