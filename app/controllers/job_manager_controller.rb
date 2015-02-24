@@ -68,7 +68,7 @@ class JobManagerController < ApplicationController
 
 		end
 
-		redirect_to success_path
+		redirect_to success_path token: params[:token]
 
 	end
 

@@ -7,6 +7,8 @@ Rails.application.routes.draw do
   get '/success', to: 'metadata_manager#success'
 
   get '/custom-properties', to: 'metadata_manager#properties'
+  
+  get '/authorize', to: 'metadata_manager#receive_authorization'
 
   
   # The priority is based upon order of creation: first created -> highest priority.

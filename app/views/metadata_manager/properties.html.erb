@@ -4,16 +4,14 @@
 <div class="row">
 	<div class="span8">
 		<p>This metadata tool will add custom key and (optional) value pairs to all your files within a Box folder and its subfolders. Blank values will not override any existing values.</p>
-		<p>Wnat to use POPSUGAR keys instead of making your own? You can do that <a href="/">here</a>.</p>
+		<p>Wnat to use POPSUGAR keys instead of making your own? You can do that <a href="/<%= @token ? "?token=#{@token}" : '' %>">here</a>.</p>
 	</div>
 </div>
 </br>
 
 <%=form_tag new_path do %>
 	<div class="row">
-		<h4>Add Account Info <a href="https://box-token-generator.herokuapp.com/" target="_blank">(Get Access Token)</a> </h4>				
-		<%= label_tag :access_token %> 
-		<%= text_field_tag :token %>
+		<%= hidden_field_tag :token, @token %>
 	
 		<%= hidden_field_tag :template, :properties %>
 
